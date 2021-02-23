@@ -1,10 +1,13 @@
 import React from 'react';
-import Frontpage from './components/Frontpage'
+import Frontpage from './components/Frontpage';
+import AddComment from './components/AddCommentModal/CommentIndex'
 
 const App = () => {
   return (
-    <Frontpage />
-    
+    <div>
+      <Frontpage />
+      <AddComment />
+    </div>
   )
 }
 
