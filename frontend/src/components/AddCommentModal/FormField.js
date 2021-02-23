@@ -7,7 +7,7 @@ export const TextField = ({
     placeholder
 }) => (
     <Form.Field>
-        <label>{label}</label>
+        <label>{label}: </label>
         <Field placeholder={placeholder} {...field} />
         <div style={{ color: 'red' }}>
             <ErrorMessage name={field.name} />

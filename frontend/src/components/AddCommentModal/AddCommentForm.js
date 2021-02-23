@@ -46,7 +46,7 @@ const AddCommentForm = ({ onSubmit, onCancel }) => {
                         />
                         <Field
                             label="Comment"
-                            placeholder="Leave comment here"
+                            placeholder="Leave a comment"
                             name="comment"
                             component={TextField}
                         />

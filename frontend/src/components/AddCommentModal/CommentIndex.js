@@ -5,11 +5,13 @@ import AddCommentModal from './CommentModal';
 const AddComment = () => {
     const [modalOpen, setModalOpen] = useState(false);
     const [error, setError] = useState(null);
+    const [success, setSuccess] = useState(null);
 
     const openModal = () => setModalOpen(true);
     const closeModal = () => setModalOpen(false);
 
     const submitNewComment = async () => {
+        setSuccess('Comment submitted successfully!')
         console.log('lol');
     };
 
@@ -20,6 +22,7 @@ const AddComment = () => {
                 onSubmit={submitNewComment}
                 error={error}
                 onClose={closeModal}
+                success={success}
             />
             <Button onClick={() => openModal()}>Add Comment</Button>
         </div>
