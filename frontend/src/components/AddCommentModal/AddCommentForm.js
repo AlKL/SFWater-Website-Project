@@ -3,14 +3,16 @@ import { Grid, Button } from "semantic-ui-react";
 import { Field, Formik, Form } from "formik";
 import { TextField } from "./FormField";
 
+const initialValues = {
+    name: "",
+    email: "",
+    comment: ""
+}
+
 const AddCommentForm = ({ onSubmit, onCancel }) => {
     return (
         <Formik
-            initialValues={{
-                name: "",
-                email: "",
-                comment: ""
-            }}
+            initialValues={initialValues}
             onSubmit={onSubmit}
             validate={values => {
                 const requiredError = "Field is required";
@@ -52,7 +54,7 @@ const AddCommentForm = ({ onSubmit, onCancel }) => {
                         />
                         <Grid>
                             <Grid.Column floated="left" width={5}>
-                                <Button type="button" onClick={onCancel} color="red">
+                                <Button type="button" onClick={(onCancel)} color="red">
                                     Cancel
                                 </Button>
                             </Grid.Column>

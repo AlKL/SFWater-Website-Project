@@ -8,11 +8,15 @@ const AddComment = () => {
     const [success, setSuccess] = useState(null);
 
     const openModal = () => setModalOpen(true);
-    const closeModal = () => setModalOpen(false);
+    const closeModal = () => {
+        setModalOpen(false);
+        setSuccess(null);
+    }
 
-    const submitNewComment = async () => {
+    const submitNewComment = async (values, { resetForm }) => {
         setSuccess('Comment submitted successfully!')
-        console.log('lol');
+        resetForm({})
+        console.log('Comment submitted');
     };
 
     return (
