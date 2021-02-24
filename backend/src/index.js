@@ -1,10 +1,10 @@
-import express from 'express';
+const express = require('express');
 // import diagnosisRouter from './routes/diagnosisRoute';
 // import patientRouter from './routes/patientRoute';
 const app = express();
 app.use(express.json());
 
-import cors from 'cors';
+const cors = require('cors');
 app.use(cors());
 
 const PORT = 3001;
