@@ -28,7 +28,7 @@ const AddComment = () => {
                 onClose={closeModal}
                 success={success}
             />
-            <Button onClick={() => openModal()}>Add Comment</Button>
+            <Button onClick={() => openModal()}>Contact Us!</Button>
         </div>
     )
 }
