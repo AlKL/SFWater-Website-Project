@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 const cors = require('cors');
-app.use(cors());
+const commentsRouter = require('./controllers/comments');
 const middleware = require('./utils/middleware');
 
 const PORT = 3001;
@@ -14,11 +14,12 @@ app.get('/api/ping', (_req, res) => {
     res.send('pong');
 });
 
-
+app.use('/api/comments', commentsRouter);
 
 // app.use('/api/diagnoses', diagnosisRouter);
 // app.use('/api/patients', patientRouter);
 
+app.use(cors());
 app.use(middleware.requestLogger);
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
