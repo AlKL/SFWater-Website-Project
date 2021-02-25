@@ -1,6 +1,6 @@
 import React from 'react';
 import Frontpage from './components/Frontpage';
-import AddComment from './components/AddCommentModal/CommentIndex'
+import AddComment from './components/AddCommentModal/CommentIndex';
 
 const App = () => {
   return (
@@ -8,7 +8,7 @@ const App = () => {
       <Frontpage />
       <AddComment />
     </div>
-  )
-}
+  );
+};
 
 export default App;

@@ -4,18 +4,18 @@ import AddCommentModal from './CommentModal';
 
 const AddComment = () => {
     const [modalOpen, setModalOpen] = useState(false);
-    const [error, setError] = useState(null);
+    const [error] = useState(null);
     const [success, setSuccess] = useState(null);
 
     const openModal = () => setModalOpen(true);
     const closeModal = () => {
         setModalOpen(false);
         setSuccess(null);
-    }
+    };
 
     const submitNewComment = async (values, { resetForm }) => {
-        setSuccess('Comment submitted successfully!')
-        resetForm({})
+        setSuccess('Comment submitted successfully!');
+        resetForm({});
         console.log('Comment submitted');
     };
 
@@ -30,7 +30,7 @@ const AddComment = () => {
             />
             <Button onClick={() => openModal()}>Contact Us!</Button>
         </div>
-    )
-}
+    );
+};
 
 export default AddComment;

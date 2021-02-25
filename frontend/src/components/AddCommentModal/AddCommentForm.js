@@ -1,13 +1,13 @@
 import React from 'react';
-import { Grid, Button } from "semantic-ui-react";
-import { Field, Formik, Form } from "formik";
-import { TextField } from "./FormField";
+import { Grid, Button } from 'semantic-ui-react';
+import { Field, Formik, Form } from 'formik';
+import { TextField } from './FormField';
 
 const initialValues = {
-    name: "",
-    email: "",
-    comment: ""
-}
+    name: '',
+    email: '',
+    comment: ''
+};
 
 const AddCommentForm = ({ onSubmit, onCancel }) => {
     return (
@@ -15,7 +15,7 @@ const AddCommentForm = ({ onSubmit, onCancel }) => {
             initialValues={initialValues}
             onSubmit={onSubmit}
             validate={values => {
-                const requiredError = "Field is required";
+                const requiredError = 'Field is required';
                 const errors = {};
                 if (!values.name) {
                     errors.name = requiredError;
@@ -73,7 +73,7 @@ const AddCommentForm = ({ onSubmit, onCancel }) => {
                 );
             }}
         </Formik>
-    )
-}
+    );
+};
 
 export default AddCommentForm;

@@ -12,7 +12,7 @@ const AddCommentModal = ({ modalOpen, onClose, onSubmit, error, success }) => {
                 <AddCommentForm onSubmit={onSubmit} onCancel={onClose} />
             </Modal.Content>
         </Modal>
-    )
-}
+    );
+};
 
 export default AddCommentModal;
