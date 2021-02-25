@@ -6,6 +6,7 @@ app.use(express.json());
 const cors = require('cors');
 const commentsRouter = require('./controllers/comments');
 const middleware = require('./utils/middleware');
+app.use(cors());
 
 const PORT = 3001;
 
@@ -19,7 +20,6 @@ app.use('/api/comments', commentsRouter);
 // app.use('/api/diagnoses', diagnosisRouter);
 // app.use('/api/patients', patientRouter);
 
-app.use(cors());
 app.use(middleware.requestLogger);
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);

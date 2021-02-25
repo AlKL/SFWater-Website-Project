@@ -3,9 +3,9 @@ const commentsRouter = require('express').Router();
 commentsRouter.post('/', async (request, response) => {
     try {
         const body = request.body;
-        // if (body.name === 'Alex Lim') {
-        //     throw new Error('ERROR TEST');
-        // }
+        if (body.name === 'Alex Lim') {
+            throw new Error('ERROR TEST');
+        }
         console.log(body);
         response.json(body);
     } catch (e) {
