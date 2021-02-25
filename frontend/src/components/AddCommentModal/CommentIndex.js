@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { Button } from 'semantic-ui-react';
 import AddCommentModal from './CommentModal';
 
