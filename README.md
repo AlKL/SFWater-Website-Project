@@ -12,3 +12,5 @@ Next steps:
 
 git subtree push --prefix backend heroku main 
 // pushes to Heroku
+
+Remove ping
