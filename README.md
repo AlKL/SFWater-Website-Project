@@ -10,4 +10,5 @@ Next steps:
 - Connect to Mongo
 - Ensure Mongo does what you want it to do - text/email notifications?
 
-Design frontend...
+git subtree push --prefix backend heroku main 
+// pushes to Heroku
