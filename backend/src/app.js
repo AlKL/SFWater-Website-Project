@@ -6,6 +6,7 @@ const commentsRouter = require('./controllers/comments');
 const middleware = require('./utils/middleware');
 
 app.use(cors());
+app.use(express.static('build'));
 app.use(express.json());
 
 app.get('/api/ping', (_req, res) => {
