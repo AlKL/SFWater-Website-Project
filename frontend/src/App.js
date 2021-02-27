@@ -8,17 +8,11 @@ const App = () => {
   return (
     <div>
       <Switch>
-        {/* <Route path="/notfound">
-          <NotFound />
-        </Route> */}
-
-        <Route path='/'>
+        <Route exact path='/'>
           <Frontpage />
           <AddComment />
         </Route>
-
-        <Route path="/notfound" component={NotFound} status={404} />
-
+        <Route path="*" component={NotFound} />
       </Switch>
     </div>
   );

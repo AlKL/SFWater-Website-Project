@@ -4,7 +4,7 @@ const Comment = require('../models/comment');
 commentsRouter.post('/', async (request, response) => {
     try {
         const body = request.body;
-        if (body.name === 'Alex Lim') {
+        if (body.name === 'Alex Bim') {
             throw new Error('ERROR TEST');
         }
         const comment = new Comment({
