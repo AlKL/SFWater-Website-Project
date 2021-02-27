@@ -1,17 +1,38 @@
+* {
+    margin: 0
+}
+
+.wrapper {
+    width: 90%;
+    border: 8px dotted aqua;
+    margin: 0 auto;
+}
+
 .title {
     color: green;
     font-size: 1.6em;
 }
 
 .bannerContainer {
-    width: 250px;
-    height: 50px;
-    border: 2px solid crimson;
+    width: 550px;
+    height: 150px;
+    border: 3px solid crimson;
 }
 
 img {
-    object-fit: cover;
-    width: 500px;
-    height: 100px;
+    width:100%;
+    max-height:100%;
+    object-fit: fill;
 }
 
+.contactContainer {
+    border: 2px solid green;
+}
+
+.pricesContainer {
+    border: 2px solid black;
+}
+
+.mapContainer {
+    border: 2px solid orange;
+}
