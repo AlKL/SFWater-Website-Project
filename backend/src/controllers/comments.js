@@ -12,7 +12,8 @@ commentsRouter.post('/', async (request, response) => {
             email: body.email,
             comment: body.comment
         });
-        await comment.save();
+        const savedComment = await comment.save();
+        response.json(savedComment);
     } catch (e) {
         response.status(400).send(e.message);
     }

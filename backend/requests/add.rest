@@ -2,7 +2,7 @@ POST http://localhost:3001/api/comments
 Content-Type: application/json
 
 {
-  "name": "Alex Lim",
+  "name": "Alex s",
   "email": "alex@google.ca",
   "comment": "hi whatsup hello"
 }
