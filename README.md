@@ -8,9 +8,10 @@ Next steps:
 - Backend: validate e-mail address 
 - Backend: handle errors
 - Frontend: validate entry to show proper errors
-- Frontend/Back: Fix unknown endpoint
+- Backend: fixed unknown errors
+
 - Ensure Mongo does what you want it to do - text/email notifications?
-- Do frontend styling
+- Do frontend styling and unknown errors styling
 - remove ping
 
 git subtree push --prefix backend heroku main 
