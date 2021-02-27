@@ -9,7 +9,8 @@ const requestLogger = (request, response, next) => {
 };
 
 const unknownEndpoint = (request, response) => {
-    response.status(404).send({ error: 'unknown endpoint' });
+    // response.status(404).send({ error: 'unknown endpoint' });
+    response.send('404 Page Not Found', 404);
 };
 
 // if (error.name === 'CastError') {
@@ -20,9 +21,10 @@ const unknownEndpoint = (request, response) => {
 
 const errorHandler = (error, request, response, next) => {
     if (error.name === 'ValidationError') {
-        return response.status(400).json({
-            error: error.message
-        });
+        // return response.status(400).json({
+        //     error: error.message
+        // });
+        return response.send(error.message, 400);
     }
     logger.error(error.message);
 
