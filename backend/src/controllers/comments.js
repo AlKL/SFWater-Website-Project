@@ -1,4 +1,5 @@
 const commentsRouter = require('express').Router();
+const Comment = require('../models/comment');
 
 commentsRouter.post('/', async (request, response) => {
     try {
@@ -6,8 +7,12 @@ commentsRouter.post('/', async (request, response) => {
         if (body.name === 'Alex Lim') {
             throw new Error('ERROR TEST');
         }
-        console.log(body);
-        response.json(body);
+        const comment = new Comment({
+            name: body.name,
+            email: body.email,
+            comment: body.comment
+        });
+        await comment.save();
     } catch (e) {
         response.status(400).send(e.message);
     }
