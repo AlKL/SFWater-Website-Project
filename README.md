@@ -5,7 +5,9 @@ To-do:
 - - Unknown endpoint should forward to an error page
 
 Next steps:
-- Connect to Mongo
+- Backend: validate e-mail address 
+- Backend: handle errors
+- Frontend: validate entry to show proper errors
 - Ensure Mongo does what you want it to do - text/email notifications?
 - Do frontend styling
 - remove ping
