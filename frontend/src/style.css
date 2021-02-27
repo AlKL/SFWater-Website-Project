@@ -1,4 +1,17 @@
-h1 {
+.title {
     color: green;
+    font-size: 1.6em;
+}
+
+.bannerContainer {
+    width: 250px;
+    height: 50px;
+    border: 2px solid crimson;
+}
+
+img {
+    object-fit: cover;
+    width: 500px;
+    height: 100px;
 }
 
