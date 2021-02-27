@@ -9,8 +9,9 @@ const requestLogger = (request, response, next) => {
 };
 
 const unknownEndpoint = (request, response) => {
-    // response.status(404).send({ error: 'unknown endpoint' });
-    response.send('404 Page', 404);
+    response.status(404).sendFile(__dirname + '/404.html');
+    // response.send('404 Page', 404);
+    // response.sendFile(__dirname + '/404.html');
 };
 
 // if (error.name === 'CastError') {
