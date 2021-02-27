@@ -8,9 +8,9 @@ const mongoose = require('mongoose');
 // const password = process.argv[2];
 
 const url =
-    'mongodb+srv://alex:32185246aA@commentsubmissions.wq4gv.mongodb.net/test?retryWrites=true&w=majority';
+    'mongodb+srv://SFWater:321water@commentsubmissions.wq4gv.mongodb.net/comments?retryWrites=true&w=majority';
 
-// `mongodb+srv://fullstack:${password}@cluster0-ostce.mongodb.net/test?retryWrites=true`;
+// `mongodb+srv://fullstack:${password}@scluster0-ostce.mongodb.net/test?retryWrites=true`;
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true });
 
