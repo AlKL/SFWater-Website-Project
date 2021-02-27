@@ -8,6 +8,7 @@ Next steps:
 - Backend: validate e-mail address 
 - Backend: handle errors
 - Frontend: validate entry to show proper errors
+- Frontend/Back: Fix unknown endpoint
 - Ensure Mongo does what you want it to do - text/email notifications?
 - Do frontend styling
 - remove ping

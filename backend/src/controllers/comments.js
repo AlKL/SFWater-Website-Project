@@ -15,7 +15,13 @@ commentsRouter.post('/', async (request, response) => {
         const savedComment = await comment.save();
         response.json(savedComment);
     } catch (e) {
-        response.status(400).send(e.message);
+        if (e.message.includes('`name`')) {
+            response.status(400).send('Please leave your name');
+        } else if (e.message.includes ('`comment`')) {
+            response.status(400).send('Please leave a comment');
+        } else {
+            response.status(400).send(e.message);
+        }
     }
 });
 

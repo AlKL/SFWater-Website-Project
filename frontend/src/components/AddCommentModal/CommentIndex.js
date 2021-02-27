@@ -29,8 +29,9 @@ const AddComment = () => {
             );
             setSuccess('Comment submitted successfully!');
         } catch (e) {
-            console.error(e.response.data);
-            setError('Please try again');
+            // console.error(e.response.data);
+            // setError('Please try again');
+            setError(e.response.data);
         }
     };
 
