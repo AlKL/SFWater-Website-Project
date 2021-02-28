@@ -14,6 +14,9 @@ Next steps:
 - Do frontend styling and unknown errors styling
 - remove ping
 
+- Covid notice notification on top
+- Shake the waterbottle on hover
+
 git subtree push --prefix backend heroku main 
 // pushes to Heroku
 // only need to deploy when finished

@@ -2,21 +2,22 @@
     margin: 0
 }
 
+.all {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .wrapper {
-    width: 90%;
-    border: 8px dotted aqua;
+    width: 80%;
+    /* border: 3px dotted aqua; */
     margin: 0 auto;
-}
-
-.title {
-    color: green;
-    font-size: 1.6em;
-}
-
-.bannerContainer {
-    width: 550px;
-    height: 150px;
-    border: 3px solid crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Secular One', sans-serif;
+    /* height: 100vh; */
 }
 
 img {
@@ -25,14 +26,86 @@ img {
     object-fit: fill;
 }
 
-.contactContainer {
-    border: 2px solid green;
+header {
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
 }
 
-.pricesContainer {
-    border: 2px solid black;
+section {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.sectionContainer p {
+    font-size: 45px;
+    margin: 30px auto;
+}
+
+.bannerContainer {
+    width: 70%;
+    height: 150px;
+    /* border: 3px solid crimson; */
+}
+
+.contactContainer {
+    width: 20%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+.sectionContainer,
+.sectionContainer2 {
+    width: 50%;
+    /* height: 450px; */
+    /* border: 2px solid black; */
+    background-color: #C3F0FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    color:#18367D;
+    text-align: center;
+}
+
+.sectionContainer2 {
+    background-color: #C1F2E8;
+    color: #046A6A;
+    border-radius: 0 10% 10% 0;
+}
+
+.sectionContainer {
+    border-radius: 10% 0 0 10%;
+}
+
+footer {
+    width: 100%;
+    /* height: 50px; */
+    background-color: #FAE6F4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hoursOfOperation {
+    color: #8D0547;
+    width: 80%;
+    margin: 20px auto;
 }
 
 .mapContainer {
-    border: 2px solid orange;
+    width: 80%;
+    height: 80%;
+}
+
+.hoursSpan {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 20px;
 }
