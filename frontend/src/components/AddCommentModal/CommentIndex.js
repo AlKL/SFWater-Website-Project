@@ -44,7 +44,7 @@ const AddComment = () => {
                 onClose={closeModal}
                 success={success}
             />
-            <Button onClick={() => openModal()}>Contact Us!</Button>
+            <Button onClick={() => openModal()} className='contactButton'>Contact Us!</Button>
         </div>
     );
 };

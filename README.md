@@ -10,11 +10,12 @@ Next steps:
 - Frontend: validate entry to show proper errors
 - Backend: fixed unknown errors
 
+- Frontend make an extra page just for 'Other Products'
 - Ensure Mongo does what you want it to do - text/email notifications?
 - Do frontend styling and unknown errors styling
 - remove ping
 
-- Covid notice notification on top
+- Covid notice notification on
 - Shake the waterbottle on hover
 
 git subtree push --prefix backend heroku main 

@@ -3,7 +3,8 @@ import React from 'react';
 import AddComment from './components/AddCommentModal/CommentIndex';
 import xBanner from './images/xBanner.png';
 import xBottle from './images/xBottle.png';
-import xMap from './images/xMap.png';
+// import xMap from './images/xMap.png';
+import MapComponent from './components/MapComponent';
 
 const App = () => {
   return (
@@ -25,17 +26,19 @@ const App = () => {
               <img src={xBottle} className='bottleImage' />
             </div>
             <div className='bottleText'>
-              <p>New bottle: $13</p>
-              <p>Refill: $3</p>
+              <p>New bottle: $10</p>
+              <p>New filled bottle: $13.5</p>
+              <p>Refill: $3.5</p>
             </div>
           </div>
           <div className='sectionContainer2'>
             <div className='mapContainer'>
-              <img src={xMap} className='mapImage' />
+              {/* <img src={xMap} className='mapImage' /> */}
+              <MapComponent />
             </div>
             <div className='mapText'>
               <p>1722 Jane Street</p>
-              <p>Right by Jane & Lawrence</p>
+              <p>@ Jane & Lawrence</p>
             </div>
           </div>
         </section>

@@ -15,9 +15,9 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: 'Secular One', sans-serif;
-    /* height: 100vh; */
+    height: 85vh;
 }
 
 img {
@@ -35,19 +35,45 @@ header {
 
 section {
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-.sectionContainer p {
-    font-size: 45px;
-    margin: 30px auto;
+.sectionContainer,
+.sectionContainer2 {
+    width: 50%;
+    /* height: 450px; */
+    /* border: 2px solid black; */
+    background-color: #C3F0FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 65vh;
+    color:#18367D;
+    text-align: center;
+    font-size: 2.6em;
+}
+
+.sectionContainer {
+    /* font-size: 2.6em; */
+    /* margin: 30px auto; */
+}
+
+.sectionContainer2 {
+    background-color: #C1F2E8;
+    color: #046A6A;
+    border-radius: 0 10% 10% 0;
+}
+
+.sectionContainer {
+    border-radius: 10% 0 0 10%;
 }
 
 .bannerContainer {
     width: 70%;
-    height: 150px;
+    height: 100%;
     /* border: 3px solid crimson; */
 }
 
@@ -61,33 +87,14 @@ section {
     font-size: 20px;
 }
 
-.sectionContainer,
-.sectionContainer2 {
-    width: 50%;
-    /* height: 450px; */
-    /* border: 2px solid black; */
-    background-color: #C3F0FF;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    height: 60vh;
-    color:#18367D;
-    text-align: center;
-}
-
-.sectionContainer2 {
-    background-color: #C1F2E8;
+.contactContainer p {
+    font-size: 25px;
     color: #046A6A;
-    border-radius: 0 10% 10% 0;
-}
-
-.sectionContainer {
-    border-radius: 10% 0 0 10%;
 }
 
 footer {
     width: 100%;
+    height: 15vh;
     /* height: 50px; */
     background-color: #FAE6F4;
     font-family: 'Open Sans', sans-serif;
@@ -99,9 +106,16 @@ footer {
     margin: 20px auto;
 }
 
+.bottleContainer,
 .mapContainer {
     width: 80%;
     height: 80%;
+    /* border: 2px dotted black; */
+}
+
+.mapContainer {
+    border-radius: 5%;
+    overflow: hidden;
 }
 
 .hoursSpan {
@@ -109,3 +123,12 @@ footer {
     font-weight: bolder;
     padding-bottom: 20px;
 }
+
+.contactButton {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5%;
+    padding: 13px;
+}
+
