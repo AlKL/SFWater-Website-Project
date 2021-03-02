@@ -5,6 +5,7 @@ import React from 'react';
 import xBottle from './images/xBottle.png';
 // import xMap from './images/xMap.png';
 import MapComponent from './components/MapComponent';
+import ModalIndex from './components/NewCommentModal/ModalIndex';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
               <p>Phone: (416) 241-7866</p>
             </div>
             {/* <AddComment /> */}
+            {/* <ModalIndex /> */}
           </div>
         </header>
 
@@ -57,6 +59,9 @@ const App = () => {
           <p>Sunday: 11am - 4pm</p>
         </div>
       </footer>
+
+      <ModalIndex />
+
     </div>
 
   );
