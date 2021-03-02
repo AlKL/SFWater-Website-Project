@@ -36,7 +36,7 @@ const AddComment = () => {
     };
 
     return (
-        <div>
+        <div className='buttonContainer' >
             <AddCommentModal
                 modalOpen={modalOpen}
                 onSubmit={submitNewComment}
@@ -44,7 +44,9 @@ const AddComment = () => {
                 onClose={closeModal}
                 success={success}
             />
-            <Button onClick={() => openModal()} className='contactButton'>Contact Us!</Button>
+            <div>
+                <Button onClick={() => openModal()} className='contactButton'>Contact Us!</Button>
+            </div>
         </div>
     );
 };

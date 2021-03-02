@@ -1,7 +1,7 @@
 import React from 'react';
 // import Frontpage from './components/Frontpage';
-import AddComment from './components/AddCommentModal/CommentIndex';
-import xBanner from './images/xBanner.png';
+// import AddComment from './components/AddCommentModal/CommentIndex';
+// import xBanner from './images/xBanner.png';
 import xBottle from './images/xBottle.png';
 // import xMap from './images/xMap.png';
 import MapComponent from './components/MapComponent';
@@ -12,11 +12,14 @@ const App = () => {
       <div className='wrapper'>
         <header>
           <div className='bannerContainer'>
-            <img src={xBanner} className='bannerImage' />
+            {/* <img src={xBanner} className='bannerImage' /> */}
+            <h2>SPARKLING FRESH WATER</h2>
           </div>
           <div className='contactContainer'>
-            <p>Phone: (416) 241-7866</p>
-            <AddComment />
+            <div className='phoneContainer'>
+              <p>Phone: (416) 241-7866</p>
+            </div>
+            {/* <AddComment /> */}
           </div>
         </header>
 

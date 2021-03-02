@@ -29,3 +29,5 @@ Brainstorm:
     - use nodemailer for this
 - Host on Heroku and use apps to keep it awake/add CC/choose time to sleep if necessary
 - Think of good domain name
+
+Font: ITC Souvenir Bold
