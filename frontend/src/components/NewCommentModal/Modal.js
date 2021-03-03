@@ -6,7 +6,8 @@ export const Modal = ({ show, closeModalHandler }) => {
         <div className='modal-wrapper'
             style={{
                 transform: show ? 'translateY(0vh)' : 'translateY(-100vh)',
-                opacity: show ? '1' : '0'
+                opacity: show ? '1' : '0',
+                display: show ? 'block' : 'none',
             }}
         >
             <div className='modal-header'>

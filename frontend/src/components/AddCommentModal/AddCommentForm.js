@@ -65,7 +65,7 @@ const AddCommentForm = ({ onSubmit, onCancel }) => {
                                     color="green"
                                     disabled={!dirty || !isValid}
                                 >
-                                    Add
+                                    Submit
                                 </Button>
                             </Grid.Column>
                         </Grid>

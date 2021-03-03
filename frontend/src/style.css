@@ -1,24 +1,26 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+p {
+    margin: 0;
 }
 
 .all {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .wrapper {
     width: 80%;
-    /* border: 3px dotted aqua; */
+    border: 3px dotted aqua;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    font-family: 'Secular One', sans-serif;
+    justify-content: space-around;
     height: 85vh;
 }
 
@@ -36,7 +38,7 @@ header {
 }
 
 h2 {
-    font-size: 5em;
+    font-size: 5rem;
     color: #1A367D;
 }
 
@@ -50,14 +52,13 @@ section {
 .sectionContainer,
 .sectionContainer2 {
     width: 50%;
-    /* height: 450px; */
-    /* border: 2px solid black; */
+    border: 2px solid black;
     background-color: #C3F0FF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 65vh;
+    height: 66vh;
     color:#18367D;
     text-align: center;
     font-size: 2.6em;
@@ -104,9 +105,7 @@ section {
 footer {
     width: 100%;
     height: 15vh;
-    /* height: 50px; */
     background-color: #FAE6F4;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .hoursOfOperation {
@@ -119,7 +118,7 @@ footer {
 .mapContainer {
     width: 80%;
     height: 80%;
-    /* border: 2px dotted black; */
+    border: 2px dotted black;
 }
 
 .mapContainer {
@@ -142,11 +141,295 @@ footer {
     justify-content: center;
 }
 
-.contactButton {
+.successSpan {
+    color: green;
+    float: right;
+}
+
+#contactButton {
     color: white;
     background-color: red;
     border: none;
     border-radius: 5%;
-    padding: 5px;
+    padding: 15px;
+} */
+
+/*                                                                                      ALL */
+
+/*                                                                                      ALL */
+
+/*                                                                                      ALL */
+
+/*                                                                                      ALL */
+
+/*                                                                                      ALL */
+
+/*                                                                                      ALL */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/*                                                                                      HEADER */
+
+/*                                                                                      HEADER */
+
+/*                                                                                      HEADER */
+
+/*                                                                                      HEADER */
+
+/*                                                                                      HEADER */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 113px;
+    /* background-color: grey; */
+}
+
+.headerWrapper {
+    height: 100%;
+    width: 69%;
+    /* background-color: lightskyblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: lightsalmon; */
+    font-size: 35px;
+}
+
+.contactContainer {
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+}
+
+.ui.button {
+    margin: 0 10px;
+}
+
+/*                                                                                      HERO */
+
+/*                                                                                      HERO */
+
+/*                                                                                      HERO */
+
+/*                                                                                      HERO */
+
+/*                                                                                      HERO */
+
+.hero {
+    height: 660px;
+    background-image: url(./images/hero-background.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.hero-wrapper {
+    /* background-color: beige; */
+    width: 69%;
+    height: 100%;
+    display: flex;
+}
+
+.hero-prices {
+    /* background-color: red; */
+    width: 59%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-prices h2 {
+    font-size: 3rem;
+}
+
+.hero-prices p {
+    font-size: 1.5rem;
+}
+
+.price-separator {
+    display: flex;
+}
+
+.price-description {
+    width: 30%;
+}
+
+.price-number {
+    width: 30%;
+}
+
+.bottle-container {
+    /* background-color: orange; */
+    width: 59%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottle-container img {
+    height: 65%;
+}
+
+/*                                                                                      PRICES */
+
+/*                                                                                      PRICES */
+
+/*                                                                                      PRICES */
+
+/*                                                                                      PRICES */
+
+/*                                                                                      PRICES */
+
+.prices {
+    /* background-color: #B9F6A4; */
+    width: 69%;
+    margin: 0 auto;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.price-container {
+    background-color: #F9F6A4;
+    height: 270px;
+    width: 31%;
+}
+
+/*                                                                                      LOCATION */
+
+/*                                                                                      LOCATION */
+
+/*                                                                                      LOCATION */
+
+/*                                                                                      LOCATION */
+
+/*                                                                                      LOCATION */
+
+.location {
+    height: 679px;
+    margin-bottom: 65px;
+    /* border: 2px solid black; */
+}
+
+.location-wrapper {
+    width: 69%;
+    margin: 0 auto;
+}
+
+.location-wrapper h2 {
+    padding-bottom: 45px;
+}
+
+.location-map {
+    height: 604px;
+    background-color: #C1F2E8;
+    display: flex;
+    align-items: center;
+}
+
+.map-wrapper {
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.location-desc {
+    width: 30%;
+    height: 100%;
+    padding-top: 50px;
+    margin-left: 50px;
+    /* border: 1px solid red; */
+}
+
+.location-desc h2,
+.location-desc h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.map-container {
+    height: 100%;
+    width: 70%;
+}
+
+/*                                                                                      OTHER */
+
+/*                                                                                      OTHER */
+
+/*                                                                                      OTHER */
+
+/*                                                                                      OTHER */
+
+/*                                                                                      OTHER */
+
+.other-products {
+    height: 575px;
+    margin-bottom: 50px;
+    /* background-color: beige; */
+}
+
+.other-wrapper {
+    width: 69%;
+    margin: 0 auto;
+}
+
+.other-wrapper h2 {
+    padding-bottom: 45px;
+}
+
+.product-list {
+    height: 500px;
+    background-color: beige;
+}
+
+
+/*                                                                                      FOOTER */
+
+/*                                                                                      FOOTER */
+
+/*                                                                                      FOOTER */
+
+/*                                                                                      FOOTER */
+
+/*                                                                                      FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-wrapper {
+    width: 69%;
+    margin: 0 auto;
+    padding: 30px 0 70px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+}
+
+.email-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
