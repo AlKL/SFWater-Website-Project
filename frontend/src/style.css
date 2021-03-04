@@ -244,38 +244,26 @@ header {
     display: flex;
 }
 
-.hero-prices {
+.hero-about {
     /* background-color: red; */
-    width: 59%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.hero-prices h2 {
+.hero-about h2 {
     font-size: 3rem;
 }
 
-.hero-prices p {
+.hero-about p {
     font-size: 1.5rem;
-}
-
-.price-separator {
-    display: flex;
-}
-
-.price-description {
-    width: 30%;
-}
-
-.price-number {
-    width: 30%;
 }
 
 .bottle-container {
     /* background-color: orange; */
-    width: 59%;
+    width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -307,9 +295,50 @@ header {
 }
 
 .price-container {
-    background-color: #F9F6A4;
+    /* background-color: #F9F6A4; */
     height: 270px;
     width: 31%;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-title {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-title h3 {
+    font-size: 40px;
+}
+
+.price-desc {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.price-desc-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 57px;
+}
+
+.price-desc-img {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price-desc-img img {
+    height: 100%;
 }
 
 /*                                                                                      LOCATION */
@@ -328,13 +357,24 @@ header {
     /* border: 2px solid black; */
 }
 
+.location-head {
+    background-color: #C1F2E8;
+    padding-top: 40px;
+}
+
 .location-wrapper {
     width: 69%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .location-wrapper h2 {
-    padding-bottom: 45px;
+    margin: 0;
+}
+
+.location-span {
+    color: #046A6A;
 }
 
 .location-map {
@@ -350,23 +390,23 @@ header {
     flex-direction: row;
 }
 
-.location-desc {
+/* .location-desc {
     width: 30%;
     height: 100%;
     padding-top: 50px;
     margin-left: 50px;
-    /* border: 1px solid red; */
-}
+} */
 
 .location-desc h2,
-.location-desc h3 {
-    padding: 0;
+.location-desc h3,
+.location-desc p {
+    padding: 5px;
     margin: 0;
 }
 
 .map-container {
     height: 100%;
-    width: 70%;
+    width: 100%;
 }
 
 /*                                                                                      OTHER */
@@ -432,4 +472,9 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.successSpan {
+    color: green;
+    float: right;
 }

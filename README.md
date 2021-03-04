@@ -31,3 +31,9 @@ Brainstorm:
 - Think of good domain name
 
 Font: ITC Souvenir Bold
+
+Pictures:
+- Logo from storefront beside name
+- picture for each other product
+- Add our label to the bottle
+- New bottle/filled bottle/refill photo
