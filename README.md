@@ -16,7 +16,8 @@ Next steps:
 - remove ping
 
 - Covid notice notification on
-- Shake the waterbottle on hover
+
+- Alternative text on images - accessibility friendly
 
 git subtree push --prefix backend heroku main 
 // pushes to Heroku

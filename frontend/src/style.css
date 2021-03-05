@@ -216,8 +216,13 @@ header {
 
 .ui.button {
     margin: 0 10px;
+    padding: 15px 25px;
     color: #A1E5FF;
     background-color: #01627F;
+}
+
+.bannerContainer h1, .phoneContainer h2 {
+    font-family: 'Poppins', sans-serif;
 }
 
 /*                                                                                      HERO */
@@ -250,7 +255,7 @@ header {
 
 .hero-about {
     /* background-color: red; */
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -258,18 +263,21 @@ header {
 }
 
 .hero-about h2 {
+    font-family: 'Poppins', sans-serif;
     font-size: 70px;
     color: #01627F;
     margin: 0;
 }
 
 .hero-about h3 {
+    font-family: 'Poppins', sans-serif;
     color: #5BA1C1;
     margin: 0;
     font-size: 55px;
 }
 
 .hero-about p {
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     color: #01627F;
     margin: 0;
@@ -328,6 +336,7 @@ header {
 }
 
 .price-title h3 {
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
 
@@ -389,6 +398,7 @@ header {
 }
 
 .location-wrapper h2 {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
 }
 
@@ -450,6 +460,7 @@ header {
 .other-wrapper h2 {
     padding-bottom: 45px;
     color: #004863;
+    font-family: 'Poppins', sans-serif;
 }
 
 .product-list {
@@ -537,8 +548,13 @@ footer {
     justify-content: space-between;
 }
 
+footer h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
 footer p {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .email-btn {

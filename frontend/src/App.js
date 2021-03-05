@@ -17,7 +17,7 @@ const App = () => {
         <div className='headerWrapper'>
           <div className='bannerContainer'>
             {/* <img src={xBanner} className='bannerImage' /> */}
-            <h1><u>SPARKLING FRESH</u> WATER</h1>
+            <h1>SPARKLING FRESH WATER</h1>
           </div>
           <div className='contactContainer'>
             <div className='phoneContainer'>
@@ -34,8 +34,8 @@ const App = () => {
           <div className='hero-about'>
             <h2>Our Water</h2>
             <h3>Local. Affordable. Water You Can <u>Trust</u>.</h3>
-            <p><i>Pure drinking water by reverse osmosis.</i></p>
-            <p><i>Total dissolved solids less than 10PPM.</i></p>
+            <p><i>Pure drinking water filtered by reverse osmosis</i></p>
+            <p><i>Total dissolved solids less than 10 parts per million</i></p>
           </div>
           <div className='bottle-container'>
             <img src={cooler} />
@@ -89,7 +89,7 @@ const App = () => {
         <div className='location-head'>
           <div className='location-wrapper'>
             <h2>Where Are We Located?</h2>
-            <h2><span className='location-span'>Jane & Lawrence | 1722 Jane Street | North York</span></h2>
+            <h2><span className='location-span'><u>1722 Jane Street</u> at Jane & Lawrence</span></h2>
           </div>
         </div>
         <div className='location-map'>
