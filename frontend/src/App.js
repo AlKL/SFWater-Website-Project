@@ -8,6 +8,8 @@ import yBottle from './images/yBottle.png';
 import MapComponent from './components/MapComponent';
 // import ModalIndex from './components/NewCommentModal/ModalIndex';
 import cooler from './images/cooler.png';
+import refill from './images/refill.png';
+import waterDrop from './images/water-drop.png';
 import FlipCard from './components/FlipCard/FlipCard';
 
 const App = () => {
@@ -46,20 +48,20 @@ const App = () => {
       <div className='prices'>
         <div className='price-container'>
           <div className='price-title'>
-            <h3>Refill</h3>
+            <h3><u>Refill</u></h3>
           </div>
           <div className='price-desc'>
             <div className='price-desc-text'>
               <p>$3.5</p>
             </div>
-            <div className='price-desc-img'>
-              <img src={yBottle} />
+            <div className='price-desc-img refill'>
+              <img src={waterDrop} />
             </div>
           </div>
         </div>
         <div className='price-container'>
           <div className='price-title'>
-            <h3>Empty Bottle</h3>
+            <h3><u>Empty Bottle</u></h3>
           </div>
           <div className='price-desc'>
             <div className='price-desc-text'>
@@ -72,14 +74,14 @@ const App = () => {
         </div>
         <div className='price-container'>
           <div className='price-title'>
-            <h3>Bottle & Water</h3>
+            <h3><u>Bottle & Water</u></h3>
           </div>
           <div className='price-desc'>
             <div className='price-desc-text'>
               <p>$13.5</p>
             </div>
-            <div className='price-desc-img'>
-              <img src={yBottle} />
+            <div className='price-desc-img bottleWater'>
+              <img src={refill} />
             </div>
           </div>
         </div>
