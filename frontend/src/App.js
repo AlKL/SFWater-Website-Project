@@ -7,6 +7,8 @@ import yBottle from './images/yBottle.png';
 // import xMap from './images/xMap.png';
 import MapComponent from './components/MapComponent';
 // import ModalIndex from './components/NewCommentModal/ModalIndex';
+import cooler from './images/cooler.png';
+import FlipCard from './components/FlipCard/FlipCard';
 
 const App = () => {
   return (
@@ -31,11 +33,12 @@ const App = () => {
         <div className='hero-wrapper'>
           <div className='hero-about'>
             <h2>Our Water</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan risus et eros molestie, a cursus nibh tempor. Cras rutrum lobortis dictum. Quisque ac purus sit amet nibh feugiat consectetur. Aliquam tincidunt nunc in diam tempus, vitae fermentum ipsum rutrum. Vivamus tincidunt neque et arcu feugiat luctus. Maecenas quis porttitor lorem. In leo nulla, consectetur ut blandit id, vulputate sed odio. Quisque sed orci ut diam dapibus ultrices. Nullam pulvinar nibh nec turpis consectetur, ut tincidunt sem posuere. Praesent non consequat quam. Sed tincidunt sed est pharetra cursus. Maecenas id diam a mauris porta suscipit. Aenean sed lacinia risus. Praesent vitae dictum ex, non efficitur erat. Maecenas nibh eros, lobortis vel tortor eget, sollicitudin egestas enim. Phasellus vestibulum eros massa, vel tristique arcu sagittis et
-            </p>
+            <h3>Local. Affordable. Water You Can <u>Trust</u>.</h3>
+            <p><i>Pure drinking water by reverse osmosis.</i></p>
+            <p><i>Total dissolved solids less than 10PPM.</i></p>
           </div>
           <div className='bottle-container'>
-            <img src={yBottle} />
+            <img src={cooler} />
           </div>
         </div>
       </div>
@@ -111,7 +114,15 @@ const App = () => {
           <h2>Our Other Products</h2>
         </div>
         <div className='product-list'>
-
+          <div className='product-card'>
+            <FlipCard image={yBottle} backImage={cooler} desc='hello'/>
+          </div>
+          <div className='product-card'>
+          <FlipCard image={yBottle} backImage={cooler} desc='this'/>
+          </div>
+          <div className='product-card'>
+          <FlipCard image={yBottle} backImage={cooler} desc='is nice'/>
+          </div>
         </div>
       </div>
 
