@@ -6,24 +6,42 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <title>Page Not Found</title>
     <style>
-        .all {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            /* display: flex; */
-            /* justify-content: center; */
-        }
-
         .wrapper {
             position: absolute;
-            border: 1px dotted red;
+            /* border: 1px dotted red; */
             width: 700px;
-            height: 500px;
+            height: 350px;
             top: 50%;
             margin-top: -250px;
             left: 50%;
             margin-left: -350px;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
         }
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            color: #01627F;
+        }
+
+        p {
+            font-size: 35px;
+            color: #5BA1C1;
+            margin: 0;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            color: #A1E5FF;
+            background-color: #01627F;
+            outline: none;
+            cursor: pointer;
+            border: none;
+            border-radius: .28571429rem;
+        }
+
     </style>
 </head>
 
@@ -31,8 +49,9 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
         <div class="wrapper">
-            <h1>404! Page Not Found.</h1>
-            <button onclick="location.href = '/'">Back To The Homepage</button>
+            <h1>404! Page Not Found</h1>
+            <p>The page requested couldn't be found!</p>
+            <button onclick="location.href = '/'">Back To Sparklingfresh.ca</button>
         </div>
     </div>
 </body>
