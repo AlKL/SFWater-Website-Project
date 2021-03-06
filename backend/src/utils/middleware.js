@@ -14,12 +14,6 @@ const unknownEndpoint = (request, response) => {
     // response.sendFile(__dirname + '/404.html');
 };
 
-// if (error.name === 'CastError') {
-//     return response.status(400).send({
-//         error: 'malformatted id'
-//     });
-// } else
-
 const errorHandler = (error, request, response, next) => {
     if (error.name === 'ValidationError') {
         // return response.status(400).json({

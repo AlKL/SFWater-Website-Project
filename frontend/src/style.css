@@ -467,7 +467,7 @@ header {
 }
 
 .other-wrapper h2 {
-    padding-bottom: 45px;
+    padding-bottom: 15px;
     color: #004863;
     font-family: 'Poppins', sans-serif;
 }
@@ -491,6 +491,7 @@ header {
 .flip-card {
     height: 500px;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
     /* background-color: beige; */
 }
 
@@ -500,23 +501,44 @@ header {
 }
 
 .card-text {
-    height: 100px;
+    height: 50px;
     width: 100%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004863;
+    text-align: center;
 }
 
 .card-img {
     height: 400px;
     width: 100%;
-    border: 1px dotted red;
+    /* border: 1px dotted red; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.product-card-3 .card-text {
+    /* border: 1px solid red; */
+    font-size: 26px;
+}
+
 .flip-btn img {
-    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.card-price {
+    /* padding-top: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #37819F;
 }
 
 /*                                                                                      FOOTER */

@@ -10,6 +10,12 @@ import MapComponent from './components/MapComponent';
 import cooler from './images/cooler.png';
 import refill from './images/refill.png';
 import waterDrop from './images/water-drop.png';
+import pumpDiagonal from './images/pumpDiagonal.png';
+import pumpBack from './images/pumpBack.png';
+import cupsDiagonal from './images/cupsDiagonal.png';
+import cupsBack from './images/cupsBack.png';
+import dispenserDiagonal from './images/dispenserDiagonal.png';
+import dispenserBack from './images/dispenserBack.png';
 import FlipCard from './components/FlipCard/FlipCard';
 
 const App = () => {
@@ -106,7 +112,6 @@ const App = () => {
               {/* </p> */}
               {/* <p>placeholder</p> */}
             </div>
-
           </div>
         </div>
       </div>
@@ -117,13 +122,25 @@ const App = () => {
         </div>
         <div className='product-list'>
           <div className='product-card'>
-            <FlipCard image={yBottle} backImage={cooler} desc='hello'/>
+            <FlipCard
+              image={pumpDiagonal}
+              backImage={pumpBack}
+              desc='Drinking Water Pump'
+              price='$20' />
           </div>
           <div className='product-card'>
-          <FlipCard image={yBottle} backImage={cooler} desc='this'/>
+            <FlipCard
+              image={cupsDiagonal}
+              backImage={cupsBack}
+              desc='Cone Water Cups'
+              price='$30' />
           </div>
-          <div className='product-card'>
-          <FlipCard image={yBottle} backImage={cooler} desc='is nice'/>
+          <div className='product-card product-card-3'>
+            <FlipCard
+              image={dispenserDiagonal}
+              backImage={dispenserBack}
+              desc='Water Cooler Cup Dispenser'
+              price='$50' />
           </div>
         </div>
       </div>
