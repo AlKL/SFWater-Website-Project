@@ -9,7 +9,7 @@ Finished steps:
 - Changed document title
 - Remove ping
 - Unknown endpoint forwards to unique page OR doesn't go anywhere - 404 page
-
+- Responsive design
 
 // pushes backend repository to Heroku
 git subtree push --prefix backend heroku main 
@@ -17,9 +17,6 @@ git subtree push --prefix backend heroku main
 Store Font: ITC Souvenir Bold
 
 Final Stretch:
-- Responsive design
-- Nodemailer (?)
-
 - Host website with proper name
 - Add app to keep the website in non-sleep mode - Heroku problem
 - Complete the README.md file
