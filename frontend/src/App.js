@@ -1,12 +1,7 @@
 import React from 'react';
-// import Frontpage from './components/Frontpage';
 import AddComment from './components/AddCommentModal/CommentIndex';
-// import xBanner from './images/xBanner.png';
-// import xBottle from './images/xBottle.png';
 import yBottle from './images/yBottle.png';
-// import xMap from './images/xMap.png';
 import MapComponent from './components/MapComponent';
-// import ModalIndex from './components/NewCommentModal/ModalIndex';
 import cooler from './images/cooler.png';
 import refill from './images/refill.png';
 import waterDrop from './images/water-drop.png';
@@ -24,15 +19,12 @@ const App = () => {
       <header>
         <div className='headerWrapper'>
           <div className='bannerContainer'>
-            {/* <img src={xBanner} className='bannerImage' /> */}
             <h1>SPARKLING FRESH WATER</h1>
           </div>
           <div className='contactContainer'>
             <div className='phoneContainer'>
               <h2>Call Us: (416) 241-7866</h2>
             </div>
-            {/* <AddComment /> */}
-            {/* <ModalIndex /> */}
           </div>
         </div>
       </header>
@@ -46,7 +38,7 @@ const App = () => {
             <p><i>Total dissolved solids less than 10 parts per million</i></p>
           </div>
           <div className='bottle-container'>
-            <img src={cooler} />
+            <img src={cooler} alt='Splash of water'/>
           </div>
         </div>
       </div>
@@ -61,7 +53,7 @@ const App = () => {
               <p>$3.5</p>
             </div>
             <div className='price-desc-img refill'>
-              <img src={waterDrop} />
+              <img src={waterDrop} alt='Water droplets' />
             </div>
           </div>
         </div>
@@ -74,7 +66,7 @@ const App = () => {
               <p>$10</p>
             </div>
             <div className='price-desc-img'>
-              <img src={yBottle} />
+              <img src={yBottle} alt='5 gallon water bottle'/>
             </div>
           </div>
         </div>
@@ -87,7 +79,7 @@ const App = () => {
               <p>$13.5</p>
             </div>
             <div className='price-desc-img bottleWater'>
-              <img src={refill} />
+              <img src={refill} alt='refill icon'/>
             </div>
           </div>
         </div>
@@ -104,13 +96,6 @@ const App = () => {
           <div className='location-wrapper map-wrapper'>
             <div className='map-container'>
               <MapComponent />
-            </div>
-            <div className='location-desc'>
-              {/* <h2>1722 Jane Street</h2> */}
-              {/* <h3>North York, Ontario</h3> */}
-              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut accumsan risus et eros molestie, a cursus nibh tempor. Cras rutrum lobortis dictum. Quisque ac purus sit amet nibh feugiat consectetur. Aliquam tincidunt nunc in diam tempus, vitae fermentum ipsum rutrum. Vivamus tincidunt neque et arcu feugiat luctus. Maecenas quis porttitor lorem. In leo nulla, consectetur ut blandit id, vulputate sed odio. Quisque sed orci ut diam dapibus ultrices. Nullam pulvinar nibh nec turpis consectetur, ut tincidunt sem posuere. Praesent non consequat quam. Sed tincidunt sed est pharetra cursus. Maecenas id diam a mauris porta suscipit. Aenean sed lacinia risus. Praesent vitae dictum ex, non efficitur erat. Maecenas nibh eros, lobortis vel tortor eget, sollicitudin egestas enim. Phasellus vestibulum eros massa, vel tristique arcu sagittis et */}
-              {/* </p> */}
-              {/* <p>placeholder</p> */}
             </div>
           </div>
         </div>

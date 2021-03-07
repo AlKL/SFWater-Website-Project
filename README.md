@@ -17,17 +17,15 @@ git subtree push --prefix backend heroku main
 Store Font: ITC Souvenir Bold
 
 Final Stretch:
-- Accessibility texts on images
-- Covid notification div with x
 - Responsive design
-
-- Clean up middleware/logger/errorHandler (?)
-- Check for deployed error messages
 - Nodemailer (?)
 
 - Host website with proper name
 - Add app to keep the website in non-sleep mode - Heroku problem
 - Complete the README.md file
+- Clear all comemnts in frontend and backend
+- Check for deployed error messages
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 
