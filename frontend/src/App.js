@@ -20,6 +20,7 @@ const App = () => {
         <div className='headerWrapper'>
           <div className='bannerContainer'>
             <h1>SPARKLING FRESH WATER</h1>
+            <h1 className='mobile-location'>1722 Jane Street</h1>
           </div>
           <div className='contactContainer'>
             <div className='phoneContainer'>

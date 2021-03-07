@@ -68,6 +68,10 @@ header {
     font-family: 'Poppins', sans-serif;
 }
 
+.mobile-location {
+    display: none;
+}
+
 @media only screen and (max-width: 1655px) and (min-width: 1201px) {
     .headerWrapper {
         width: 80%;
@@ -91,6 +95,20 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .mobile-location {
+        display: flex;
+        margin: 0;
+        text-align: center;
+    }
+
+    .bannerContainer {
+        align-items: center;
+    }
+
+    .bannerContainer h1 {
+        margin: 0;
     }
 }
 
@@ -247,7 +265,7 @@ header {
         margin-bottom: 15px;
     }
     .hero-about p {
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
