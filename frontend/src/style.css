@@ -237,11 +237,17 @@ header {
 }
 
 @media only screen and (max-width: 764px) and (min-width: 0px) {
+    .hero-about h2 {
+        font-size: 56px;
+    }
     .hero-about h3 {
         font-size: 55px;
     }
     .hero {
         margin-bottom: 15px;
+    }
+    .hero-about p {
+        font-size: 14px;
     }
 }
 
@@ -408,16 +414,16 @@ header {
     }
     .bottleWater img {
         height: 50%;
-        margin-left: 50px;
     }
     .emptyBottle img {
         height: 60%;
-        margin-left: 25px;
     }
     .refill img {
         height: 60%;
         margin-bottom: 15px;
-        margin-left: 30px;
+    }
+    .price-container{
+        width: 100%;
     }
 }
 
@@ -510,6 +516,7 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 }
 
@@ -714,8 +721,8 @@ footer p {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 90%;
     }
-
     .email-btn {
         margin-top: 30px;
     }
