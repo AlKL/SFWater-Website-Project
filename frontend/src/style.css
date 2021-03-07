@@ -80,6 +80,20 @@ header {
     }
 }
 
+@media only screen and (max-width: 764px) and (min-width: 0px) {
+    .headerWrapper h1, .headerWrapper h2 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 0px) {
+    .headerWrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /*                                                                                      HERO */
 
 /*                                                                                      HERO */
@@ -208,20 +222,26 @@ header {
     .bottle-container img {
         display: none;
     }
-
     .hero-about {
         width: 100%;
     }
-
     .bottle-container {
         width: 0;
     }
-
     .hero-about h3 {
         font-size: 65px;
     }
     .hero-about p {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 764px) and (min-width: 0px) {
+    .hero-about h3 {
+        font-size: 55px;
+    }
+    .hero {
+        margin-bottom: 15px;
     }
 }
 
@@ -340,7 +360,6 @@ header {
     .bottleWater img {
         height: 80%;
     }
-
     .refill img {
         height: 80%;
         margin-bottom: 15px;
@@ -351,18 +370,54 @@ header {
     .price-title h3 {
         font-size: 30px;
     }
-
     .bottleWater img {
         height: 60%;
     }
-
     .emptyBottle img {
         height: 70%;
     }
-
     .refill img {
         height: 70%;
         margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 764px) and (min-width: 0px) {
+    .price-title h3 {
+        font-size: 25px;
+    }
+    .bottleWater img {
+        height: 50%;
+    }
+    .emptyBottle img {
+        height: 60%;
+    }
+    .refill img {
+        height: 60%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 0px) {
+    .prices {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        margin-bottom: 0px;
+    }
+    .bottleWater img {
+        height: 50%;
+        margin-left: 50px;
+    }
+    .emptyBottle img {
+        height: 60%;
+        margin-left: 25px;
+    }
+    .refill img {
+        height: 60%;
+        margin-bottom: 15px;
+        margin-left: 30px;
     }
 }
 
@@ -433,7 +488,6 @@ header {
     .location-wrapper {
         width: 90%;
     }
-
     .location-wrapper h2 {
         font-size: 20px;
     }
@@ -442,6 +496,20 @@ header {
 @media only screen and (max-width: 850px) and (min-width: 0px) {
     .location-wrapper h2 {
         font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 764px) and (min-width: 0px) {
+    .map-wrapper {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 764px) and (min-width: 0px) {
+    .location-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -565,6 +633,25 @@ header {
     }
 }
 
+@media only screen and (max-width: 764px) and (min-width: 0px) {
+    .other-products {
+        height: 100%;
+    }
+    .product-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .product-card {
+        width: 100%;
+        padding-top: 30px;
+    }
+    .card-text p {
+        font-size: 30px;
+    }
+}
+
 /*                                                                                      FOOTER */
 
 /*                                                                                      FOOTER */
@@ -619,5 +706,17 @@ footer p {
 @media only screen and (max-width: 1200px) and (min-width: 0px) {
     .footer-wrapper {
         width: 85%;
+    }
+}
+
+@media only screen and (max-width: 764px) and (min-width: 0px) {
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .email-btn {
+        margin-top: 30px;
     }
 }
