@@ -126,21 +126,21 @@ const App = () => {
               image={pumpDiagonal}
               backImage={pumpBack}
               desc='Drinking Water Pump'
-              price='$20' />
+              price='$16' />
           </div>
           <div className='product-card'>
             <FlipCard
               image={cupsDiagonal}
               backImage={cupsBack}
               desc='Cone Water Cups'
-              price='$30' />
+              price='$7' />
           </div>
           <div className='product-card product-card-3'>
             <FlipCard
               image={dispenserDiagonal}
               backImage={dispenserBack}
               desc='Water Cooler Cup Dispenser'
-              price='$50' />
+              price='$28' />
           </div>
         </div>
       </div>
@@ -149,9 +149,9 @@ const App = () => {
         <div className='footer-wrapper'>
           <div>
             <h2>When Are We Open?</h2>
-            <p>Wednesday: Closed </p>
-            <p>Monday, Tuesday, Thursday, Friday, Saturday: 10am - 6pm</p>
-            <p>Sunday: 11am - 4pm</p>
+            <p>Wednesday: <u>Closed</u> </p>
+            <p>Monday, Tuesday, Thursday, Friday, Saturday: <u>10am - 6pm</u></p>
+            <p>Sunday: <u>11am - 4pm</u></p>
           </div>
           <div className='email-btn'>
             <AddComment />

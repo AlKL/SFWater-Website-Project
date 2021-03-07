@@ -340,6 +340,7 @@ header {
 }
 
 .price-desc {
+    font-family: 'Poppins', sans-serif;
     color: #37819F;
     height: 200px;
     display: flex;
@@ -420,6 +421,7 @@ header {
     background-color: #37819F;
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .map-wrapper {

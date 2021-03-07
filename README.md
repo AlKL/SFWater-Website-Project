@@ -19,8 +19,6 @@ Store Font: ITC Souvenir Bold
 Final Stretch:
 - Accessibility texts on images
 - Covid notification div with x
-- Add image of bottle with our label - refill/empty bottle/bottle
-- Add images and complete 'Other Products'
 - Responsive design
 
 - Clean up middleware/logger/errorHandler (?)
