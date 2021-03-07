@@ -10,12 +10,12 @@ import MapComponent from './components/MapComponent';
 import cooler from './images/cooler.png';
 import refill from './images/refill.png';
 import waterDrop from './images/water-drop.png';
-import pumpDiagonal from './images/pumpDiagonal.png';
-import pumpBack from './images/pumpBack.png';
-import cupsDiagonal from './images/cupsDiagonal.png';
-import cupsBack from './images/cupsBack.png';
-import dispenserDiagonal from './images/dispenserDiagonal.png';
-import dispenserBack from './images/dispenserBack.png';
+import pumpDiagonal from './images/pumpDiagonal.jpg';
+import pumpBack from './images/pumpBack.jpg';
+import cupsDiagonal from './images/cupsDiagonal.jpg';
+import cupsBack from './images/cupsBack.jpg';
+import dispenserDiagonal from './images/dispenserDiagonal.jpg';
+import dispenserBack from './images/dispenserBack.jpg';
 import FlipCard from './components/FlipCard/FlipCard';
 
 const App = () => {
