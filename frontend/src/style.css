@@ -76,7 +76,7 @@ header {
 
 @media only screen and (max-width: 1200px) and (min-width: 0px) {
     .headerWrapper {
-        width: 85%;
+        width: 90%;
     }
 }
 
@@ -163,21 +163,18 @@ header {
     .hero-wrapper {
         width: 80%;
     }
-
     .hero-about h3 {
         font-size: 50px;
     }
 }
 
-@media only screen and (max-width: 1320px) and (min-width: 0px) {
+@media only screen and (max-width: 1320px) and (min-width: 940px) {
     .hero-wrapper {
         width: 80%;
     }
-
     .hero-about h3 {
         font-size: 45px;
     }
-
     .hero-about p {
         font-size: 16px;
     }
@@ -189,9 +186,42 @@ header {
     }
 }
 
-@media only screen and (max-width: 1056px) and (min-width: 0px) {
+@media only screen and (max-width: 1056px) and (min-width: 940px) {
     .hero-about h3 {
         font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 940px) and (min-width: 0px) {
+    .hero-wrapper {
+        width: 90%;
+    }
+    .hero-about h3 {
+        font-size: 36px;
+    }
+    .hero-about p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 0px) {
+    .bottle-container img {
+        display: none;
+    }
+
+    .hero-about {
+        width: 100%;
+    }
+
+    .bottle-container {
+        width: 0;
+    }
+
+    .hero-about h3 {
+        font-size: 65px;
+    }
+    .hero-about p {
+        font-size: 20px;
     }
 }
 
@@ -286,7 +316,6 @@ header {
     .prices {
         width: 90%;
     }
-
     .bottleWater img {
         height: 90%;
     }
@@ -302,9 +331,38 @@ header {
     .prices {
         width: 100%;
     }
-
     .price-title h3 {
         font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 910px) and (min-width: 0px) {
+    .bottleWater img {
+        height: 80%;
+    }
+
+    .refill img {
+        height: 80%;
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 0px) {
+    .price-title h3 {
+        font-size: 30px;
+    }
+
+    .bottleWater img {
+        height: 60%;
+    }
+
+    .emptyBottle img {
+        height: 70%;
+    }
+
+    .refill img {
+        height: 70%;
+        margin-bottom: 15px;
     }
 }
 

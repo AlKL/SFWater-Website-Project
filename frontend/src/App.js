@@ -65,7 +65,7 @@ const App = () => {
             <div className='price-desc-text'>
               <p>$10</p>
             </div>
-            <div className='price-desc-img'>
+            <div className='price-desc-img emptyBottle' >
               <img src={yBottle} alt='5 gallon water bottle'/>
             </div>
           </div>
