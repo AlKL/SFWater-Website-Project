@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
-// import yBottle from '../../images/yBottle.png';
 
 const FlipCard = ({ image, backImage, desc, price }) => {
     const [isFlipped, setIsFlipped] = useState(false);

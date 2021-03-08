@@ -10,15 +10,10 @@ const requestLogger = (request, response, next) => {
 
 const unknownEndpoint = (request, response) => {
     response.status(404).sendFile(__dirname + '/404.html');
-    // response.send('404 Page', 404);
-    // response.sendFile(__dirname + '/404.html');
 };
 
 const errorHandler = (error, request, response, next) => {
     if (error.name === 'ValidationError') {
-        // return response.status(400).json({
-        //     error: error.message
-        // });
         return response.send(error.message, 400);
     }
     logger.error(error.message);

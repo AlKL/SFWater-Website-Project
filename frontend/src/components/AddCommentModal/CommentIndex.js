@@ -22,8 +22,6 @@ const AddComment = () => {
             setSuccess(null);
             resetForm({});
             await axios.post(
-                // 'http://localhost:3001/api/comments',
-                // 'https://sfwaterproject.herokuapp.com/api/comments',
                 baseUrl,
                 values
             );

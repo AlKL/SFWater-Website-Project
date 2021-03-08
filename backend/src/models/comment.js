@@ -1,17 +1,5 @@
 const mongoose = require('mongoose');
 
-// content: {
-//     type: String,
-//     required: true,
-//     minlength: 5
-// },
-// date: Date,
-// important: Boolean,
-// user: {
-//     type: mongoose.Schema.Types.ObjectId,
-//     ref: 'User'
-// }
-
 const commentSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -21,7 +9,6 @@ const commentSchema = new mongoose.Schema({
     email: {
         type: String,
         required: true,
-        //a@a.ca - min length is 6, but you should use a better validator
         minlength: 6
     },
     comment: {
