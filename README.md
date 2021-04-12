@@ -13,7 +13,7 @@ Link to website at: http://www.sparklingfresh.ca/
 * 404 Error page handling
 
 ## Other
-### Screenshot
+### Website Layout
 ![GIF of website](https://github.com/AlKL/SFWater-Website-Project/blob/main/frontend/src/images/chrome-capture.gif)
 
 ## Frameworks
