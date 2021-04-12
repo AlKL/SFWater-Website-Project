@@ -3,7 +3,7 @@
 Website for water bottle store, Sparkling Fresh Water, that showcases their main products and services.
 
 ## Link
-http://www.sparklingfresh.ca/
+Link to website at: http://www.sparklingfresh.ca/
 
 ## Features
 * Post comments to MongoDB backend
@@ -14,7 +14,7 @@ http://www.sparklingfresh.ca/
 
 ## Other
 ### Screenshot
-![Image of Yaktocat](https://github.com/AlKL/SFWater-Website-Project/blob/main/frontend/src/images/screenshot.jpg)
+![Screenshot of website](https://github.com/AlKL/SFWater-Website-Project/blob/main/frontend/src/images/screenshot.jpg)
 
 ## Frameworks
 * react-google-maps
