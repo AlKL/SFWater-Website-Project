@@ -14,7 +14,7 @@ Link to website at: http://www.sparklingfresh.ca/
 
 ## Other
 ### Screenshot
-![Screenshot of website](https://github.com/AlKL/SFWater-Website-Project/blob/main/frontend/src/images/screenshot.jpg)
+![GIF of website](https://github.com/AlKL/SFWater-Website-Project/blob/main/frontend/src/images/chrome-capture.gif)
 
 ## Frameworks
 * react-google-maps
