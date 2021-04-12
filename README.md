@@ -1,22 +1,26 @@
 # SFWater Website Project
 
-Sparkling Fresh Water website project:
+Website for water bottle store, Sparkling Fresh Water, that showcases their main products and services.
 
-This website is for the store, Sparkling Fresh Water. The website showcases the main products and services the store offers. 
+## Link
+http://www.sparklingfresh.ca/
 
-The project is based on a React frontend and a Express backend. 
+## Features
+* Post comments to MongoDB backend
+* Comment postinging validation
+* Google Maps API
+* Responsive design
+* 404 Error page handling
 
-Features: 
-- 404 error handler page
-- Form to allow comment submissions with error validation
-- Google Maps API implementation
-- Product flip car to show both un-packaged and packaged products
-- Responsive
+## Other
+### Screenshot
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-Frameworks:
-- React Google Maps
-- Formik
-- Card-Flip
+## Frameworks
+* react-google-maps
+* Formik
+* Card-flip
 
-Authors: 
-Alexandre Khien
+## Future ideas
+* SSL Certification
+* Phone call link
