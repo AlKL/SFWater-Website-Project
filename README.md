@@ -14,7 +14,7 @@ http://www.sparklingfresh.ca/
 
 ## Other
 ### Screenshot
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://github.com/AlKL/SFWater-Website-Project/blob/main/frontend/src/images/screenshot.jpg)
 
 ## Frameworks
 * react-google-maps
