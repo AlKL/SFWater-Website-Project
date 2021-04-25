@@ -3,7 +3,7 @@
 Website for water bottle store, Sparkling Fresh Water, that showcases their main products and services.
 
 ## Link
-Link to website at: http://www.sparklingfresh.ca/
+Link to website at: https://www.sparklingfresh.ca/
 
 ## Features
 * Post comments to MongoDB backend
@@ -11,6 +11,7 @@ Link to website at: http://www.sparklingfresh.ca/
 * Google Maps API
 * Responsive design
 * 404 Error page handling
+* SSL Certified
 
 ## Other
 ### Website Layout
@@ -22,5 +23,9 @@ Link to website at: http://www.sparklingfresh.ca/
 * Card-flip
 
 ## Future ideas
+<<<<<<< HEAD
 * SSL Certification added
 * Phone call link
+=======
+* Phone call link
+>>>>>>> 24374d95d43945b1ef39289443df74f9750e966e
