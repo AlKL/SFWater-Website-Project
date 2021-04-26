@@ -23,9 +23,5 @@ Link to website at: https://www.sparklingfresh.ca/
 * Card-flip
 
 ## Future ideas
-<<<<<<< HEAD
 * SSL Certification added
 * Phone call link
-=======
-* Phone call link
->>>>>>> 24374d95d43945b1ef39289443df74f9750e966e
