@@ -25,3 +25,4 @@ Link to website at: https://www.sparklingfresh.ca/
 ## Future ideas
 * SSL Certification added
 * Phone call link
+* Curbside pickup 
