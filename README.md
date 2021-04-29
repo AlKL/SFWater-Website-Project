@@ -26,3 +26,4 @@ Link to website at: https://www.sparklingfresh.ca/
 * SSL Certification added
 * Phone call link
 * Curbside pickup 
+* Card shadowing and highlight
