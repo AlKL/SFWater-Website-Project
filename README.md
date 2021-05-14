@@ -24,4 +24,5 @@ Link to website at: https://www.sparklingfresh.ca/
 * Card-flip
 
 ## Future ideas
-* Click on Google Maps marker to zoom in to the store with descrption dialogue open
+* 
+* Card shadowing and highlight
