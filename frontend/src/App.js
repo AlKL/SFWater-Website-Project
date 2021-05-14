@@ -24,7 +24,7 @@ const App = () => {
           </div>
           <div className='contactContainer'>
             <div className='phoneContainer'>
-              <h2>Call Us: (416) 241-7866</h2>
+              <h2 className='underline'><a href="tel:416-241-7866">Call Us: (416) 241-7866</a></h2>
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@ const App = () => {
 
       <div className='other-products'>
         <div className='other-wrapper'>
-          <h2>Our Other Products</h2>
+          <h2>Our Other Products - Click to flip!</h2>
         </div>
         <div className='product-list'>
           <div className='product-card'>

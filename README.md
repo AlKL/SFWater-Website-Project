@@ -12,6 +12,7 @@ Link to website at: https://www.sparklingfresh.ca/
 * Responsive design
 * 404 Error page handling
 * SSL Certified
+* Call the number directly from the website
 
 ## Other
 ### Website Layout
@@ -23,5 +24,4 @@ Link to website at: https://www.sparklingfresh.ca/
 * Card-flip
 
 ## Future ideas
-* SSL Certification added
-* Phone call link
+* Click on Google Maps marker to zoom in to the store with descrption dialogue open
