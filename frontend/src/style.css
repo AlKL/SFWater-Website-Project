@@ -96,6 +96,11 @@ header {
     width: 100%;
 }
 
+.bannerContainer img {
+    height: 5px;
+    width: 5px;
+}
+
 .mobile-location {
     display: none;
 }
@@ -573,6 +578,7 @@ header {
 
 /*                                                                                      OTHER */
 
+
 .other-products {
     height: 575px;
     margin-bottom: 50px;
@@ -604,6 +610,11 @@ header {
     height: 100%;
     width: 32.5%;
     /* background-color: yellow; */
+}
+
+.product-card:hover {
+    /* background-color: beige; */
+
 }
 
 .flip-card {

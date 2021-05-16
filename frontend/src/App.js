@@ -12,6 +12,7 @@ import cupsBack from './images/cupsBack.jpg';
 import dispenserDiagonal from './images/dispenserDiagonal.jpg';
 import dispenserBack from './images/dispenserBack.jpg';
 import FlipCard from './components/FlipCard/FlipCard';
+// import tele from './images/telephone.svg';
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
           </div>
           <div className='contactContainer'>
             <div className='phoneContainer'>
-              <h2 className='underline'><a href="tel:416-241-7866">Call Us: (416) 241-7866</a></h2>
+              <h2 className='underline'><a href="tel:416-241-7866">Call: (416) 241-7866</a></h2>
             </div>
           </div>
         </div>
@@ -39,7 +40,7 @@ const App = () => {
             <p><i>Total dissolved solids less than 10 parts per million</i></p>
           </div>
           <div className='bottle-container'>
-            <img src={cooler} alt='Splash of water'/>
+            <img src={cooler} alt='Splash of water' />
           </div>
         </div>
       </div>
@@ -67,7 +68,7 @@ const App = () => {
               <p>$10</p>
             </div>
             <div className='price-desc-img emptyBottle' >
-              <img src={yBottle} alt='5 gallon water bottle'/>
+              <img src={yBottle} alt='5 gallon water bottle' />
             </div>
           </div>
         </div>
@@ -80,7 +81,7 @@ const App = () => {
               <p>$13.5</p>
             </div>
             <div className='price-desc-img bottleWater'>
-              <img src={refill} alt='refill icon'/>
+              <img src={refill} alt='refill icon' />
             </div>
           </div>
         </div>
@@ -104,7 +105,7 @@ const App = () => {
 
       <div className='other-products'>
         <div className='other-wrapper'>
-          <h2>Our Other Products - Click to flip!</h2>
+          <h2>Our Other Products - <span className='underline'>Click to flip!</span></h2>
         </div>
         <div className='product-list'>
           <div className='product-card'>

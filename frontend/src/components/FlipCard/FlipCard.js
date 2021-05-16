@@ -8,6 +8,14 @@ const FlipCard = ({ image, backImage, desc, price }) => {
         setIsFlipped(!isFlipped);
     };
 
+    // const handleEnter = () => {
+    //     setIsFlipped(true);
+    // };
+
+    // const handleExit = () => {
+    //     setIsFlipped(false);
+    // };
+
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
             <div className='flip-card'>

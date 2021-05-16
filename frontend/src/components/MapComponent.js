@@ -6,7 +6,7 @@ const MapComponent = () => {
     const Map = () => {
         return (
             <GoogleMap
-                defaultZoom={16}
+                defaultZoom={17}
                 defaultCenter={{ lat: 43.704030, lng: -79.504400 }}
             >
                 <Marker
