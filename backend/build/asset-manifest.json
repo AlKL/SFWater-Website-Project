@@ -1,34 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b10652c.chunk.css",
-    "main.js": "/static/js/main.4fc24500.chunk.js",
-    "main.js.map": "/static/js/main.4fc24500.chunk.js.map",
+    "main.css": "/static/css/main.1b01fb14.chunk.css",
+    "main.js": "/static/js/main.b8383897.chunk.js",
+    "main.js.map": "/static/js/main.b8383897.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.248907bc.js",
     "runtime-main.js.map": "/static/js/runtime-main.248907bc.js.map",
     "static/css/2.85f7760d.chunk.css": "/static/css/2.85f7760d.chunk.css",
-    "static/js/2.144e2a62.chunk.js": "/static/js/2.144e2a62.chunk.js",
-    "static/js/2.144e2a62.chunk.js.map": "/static/js/2.144e2a62.chunk.js.map",
+    "static/js/2.fedd20ba.chunk.js": "/static/js/2.fedd20ba.chunk.js",
+    "static/js/2.fedd20ba.chunk.js.map": "/static/js/2.fedd20ba.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.85f7760d.chunk.css.map": "/static/css/2.85f7760d.chunk.css.map",
-    "static/css/main.3b10652c.chunk.css.map": "/static/css/main.3b10652c.chunk.css.map",
-    "static/js/2.144e2a62.chunk.js.LICENSE.txt": "/static/js/2.144e2a62.chunk.js.LICENSE.txt",
+    "static/css/main.1b01fb14.chunk.css.map": "/static/css/main.1b01fb14.chunk.css.map",
+    "static/js/2.fedd20ba.chunk.js.LICENSE.txt": "/static/js/2.fedd20ba.chunk.js.LICENSE.txt",
     "static/media/semantic.min.css": "/static/media/outline-icons.ddae9b1b.woff",
     "static/media/cooler.dd560fbf.png": "/static/media/cooler.dd560fbf.png",
     "static/media/cupsBack.5588e8f0.jpg": "/static/media/cupsBack.5588e8f0.jpg",
     "static/media/cupsDiagonal.1372a684.jpg": "/static/media/cupsDiagonal.1372a684.jpg",
     "static/media/dispenserBack.b059acd7.jpg": "/static/media/dispenserBack.b059acd7.jpg",
     "static/media/dispenserDiagonal.88295ee4.jpg": "/static/media/dispenserDiagonal.88295ee4.jpg",
+    "static/media/google.ed8cc84b.png": "/static/media/google.ed8cc84b.png",
     "static/media/pumpBack.ad7d9981.jpg": "/static/media/pumpBack.ad7d9981.jpg",
     "static/media/pumpDiagonal.8be9a4d5.jpg": "/static/media/pumpDiagonal.8be9a4d5.jpg",
     "static/media/refill.be5a2356.png": "/static/media/refill.be5a2356.png",
     "static/media/water-drop.67a00904.png": "/static/media/water-drop.67a00904.png",
-    "static/media/yBottle.fa0c368b.png": "/static/media/yBottle.fa0c368b.png"
+    "static/media/yBottle.fa0c368b.png": "/static/media/yBottle.fa0c368b.png",
+    "static/media/yellowPages.749119fc.png": "/static/media/yellowPages.749119fc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.248907bc.js",
     "static/css/2.85f7760d.chunk.css",
-    "static/js/2.144e2a62.chunk.js",
-    "static/css/main.3b10652c.chunk.css",
-    "static/js/main.4fc24500.chunk.js"
+    "static/js/2.fedd20ba.chunk.js",
+    "static/css/main.1b01fb14.chunk.css",
+    "static/js/main.b8383897.chunk.js"
   ]
 }
