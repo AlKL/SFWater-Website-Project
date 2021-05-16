@@ -14,6 +14,7 @@ Link to website at: https://www.sparklingfresh.ca/
 * SSL Certified
 * Call the number directly from the website
 * Card flips on mouse enter/exit
+* Links to Google/Yelp/YP
 
 ## Other
 ### Website Layout
