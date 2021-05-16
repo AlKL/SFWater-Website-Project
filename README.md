@@ -26,4 +26,6 @@ Link to website at: https://www.sparklingfresh.ca/
 * Card-flip
 
 ## Future ideas
-* Google maps click marker to zoom in and open descrption
+* More social media links
+* Separate page for inside store images? 
+* Upload images to Yelp and Google as well
