@@ -588,12 +588,15 @@ header {
 .other-wrapper {
     width: 69%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .other-wrapper h2 {
     padding-bottom: 15px;
     color: #004863;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 .product-list {
@@ -609,12 +612,10 @@ header {
 .product-card {
     height: 100%;
     width: 32.5%;
-    /* background-color: yellow; */
 }
 
 .product-card:hover {
-    /* background-color: beige; */
-
+    /* border: 1px solid #37819F; */
 }
 
 .flip-card {
@@ -622,11 +623,12 @@ header {
     width: 100%;
     font-family: 'Poppins', sans-serif;
     /* background-color: beige; */
+    /* border: 2px solid green; */
 }
 
 .flip-btn {
     outline: none;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .card-text {
@@ -644,6 +646,7 @@ header {
 .card-img {
     height: 400px;
     width: 100%;
+    margin-top: 10px;
     /* border: 1px dotted red; */
     display: flex;
     flex-direction: column;
@@ -683,6 +686,12 @@ header {
     .card-price p {
         padding-top: 20px;
     }
+    .product-card {
+        padding-bottom: 30px;
+    }
+    .product-card:hover {
+        box-shadow: none
+    }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 0px) {
@@ -691,6 +700,11 @@ header {
     }
     .product-list {
         width: 90%;
+    }
+    .product-card {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 }
 
@@ -707,6 +721,7 @@ header {
     .product-card {
         width: 100%;
         padding-top: 30px;
+        padding-bottom: 20px;
     }
     .card-text p {
         font-size: 30px;

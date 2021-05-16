@@ -18,8 +18,8 @@ const FlipCard = ({ image, backImage, desc, price }) => {
 
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="vertical">
-            <div className='flip-card'>
-                <div onClick={handleFlip} className='flip-btn'>
+            <div className='flip-card' onMouseEnter={handleFlip}>
+                <div className='flip-btn'>
                     <div className='card-img'>
                         <img src={image}></img>
                     </div>
@@ -32,9 +32,9 @@ const FlipCard = ({ image, backImage, desc, price }) => {
                 </div>
             </div>
 
-            <div className='flip-card'>
+            <div className='flip-card' onMouseLeave={handleFlip}>
                 <div>
-                    <div onClick={handleFlip} className='flip-btn'>
+                    <div className='flip-btn'>
                         <div className='card-img'>
                             <img src={backImage}></img>
                         </div>

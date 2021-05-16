@@ -13,6 +13,7 @@ Link to website at: https://www.sparklingfresh.ca/
 * 404 Error page handling
 * SSL Certified
 * Call the number directly from the website
+* Card flips on mouse enter/exit
 
 ## Other
 ### Website Layout
@@ -25,4 +26,3 @@ Link to website at: https://www.sparklingfresh.ca/
 
 ## Future ideas
 * Google maps click marker to zoom in and open descrption
-* Card shadowing and highlight

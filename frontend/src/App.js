@@ -105,7 +105,8 @@ const App = () => {
 
       <div className='other-products'>
         <div className='other-wrapper'>
-          <h2>Our Other Products - <span className='underline'>Click to flip!</span></h2>
+          <h2>Our Other Products</h2>
+          <h2><span className='underline'>Hover to see the product!</span></h2>
         </div>
         <div className='product-list'>
           <div className='product-card'>
