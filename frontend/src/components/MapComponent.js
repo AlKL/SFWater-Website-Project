@@ -6,11 +6,12 @@ const MapComponent = () => {
     const Map = () => {
         return (
             <GoogleMap
-                defaultZoom={17}
+                defaultZoom={19}
                 defaultCenter={{ lat: 43.704030, lng: -79.504400 }}
             >
                 <Marker
-                    position={{ lat: 43.704030, lng: -79.504400 }}
+                    position={{ lat: 43.704030, lng: -79.504350 }}
+                    // defaultLabel='SPARKLING FRESH WATER'
                 />
             </GoogleMap>
         );
