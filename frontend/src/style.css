@@ -72,6 +72,17 @@ header {
     margin-top: 0;
 }
 
+.phoneContainer .ui.button {
+    /* padding: 0; */
+    color: white;
+    font-size: 16px;
+}
+
+.phoneContainer .ui.button:hover {
+    /* padding: 0; */
+    color: #01627F;
+}
+
 .underline {
     display: inline;
     position: relative;
@@ -126,9 +137,12 @@ header {
     }
 }
 
-@media only screen and (max-width: 800px) and (min-width: 0px) {
+@media only screen and (max-width: 830px) and (min-width: 0px) {
     .bannerContainer {
         flex-direction: column;
+    }
+    header {
+        height: 150px;
     }
 }
 
@@ -765,7 +779,7 @@ footer {
 .footer-wrapper {
     width: 69%;
     margin: 0 auto;
-    padding: 30px 0 70px 0;
+    padding: 30px 0 100px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

@@ -16,6 +16,7 @@ import FlipCard from './components/FlipCard/FlipCard';
 import yelpIcon from './images/yelp-icon.png';
 import googleIcon from './images/google.png';
 import yellowPages from './images/yellowPages.png';
+import { Button } from 'semantic-ui-react';
 
 const App = () => {
   return (
@@ -33,7 +34,11 @@ const App = () => {
           </div>
           <div className='contactContainer'>
             <div className='phoneContainer'>
-              <h2 className='underline'><a href="tel:416-241-7866">Call: (416) 241-7866</a></h2>
+              <h2 className=''>
+                <Button className='callBtn' onClick={() => window.location.href='tel:416-241-7866'}>
+                  Call Us: (416) 241-7866
+                </Button>
+              </h2>
             </div>
           </div>
         </div>
