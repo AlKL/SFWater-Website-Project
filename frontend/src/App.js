@@ -12,7 +12,6 @@ import cupsBack from './images/cupsBack.jpg';
 import dispenserDiagonal from './images/dispenserDiagonal.jpg';
 import dispenserBack from './images/dispenserBack.jpg';
 import FlipCard from './components/FlipCard/FlipCard';
-// import tele from './images/telephone.svg';
 import yelpIcon from './images/yelp-icon.png';
 import googleIcon from './images/google.png';
 import yellowPages from './images/yellowPages.png';
