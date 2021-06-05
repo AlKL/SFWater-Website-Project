@@ -32,3 +32,4 @@ Link to website at: https://www.sparklingfresh.ca/
 * Mobile floating call buttons and hours button
 * Fix google link 
 * Change question to comments
+* On large screen, "water you can trust" is on diff lines
