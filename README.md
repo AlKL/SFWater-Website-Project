@@ -33,3 +33,4 @@ Link to website at: https://www.sparklingfresh.ca/
 * Fix google link 
 * Change question to comments
 * On large screen, "water you can trust" is on diff lines
+* make it responsive for when it's too big
