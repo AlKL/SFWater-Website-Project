@@ -240,7 +240,7 @@ header {
 
 .bottle-container {
     /* background-color: orange; */
-    width: 50%;
+    max-width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
