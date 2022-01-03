@@ -1,3 +1,5 @@
 SFWater.code-workspace
 /frontend/node_modules
 READ.txt
+backend/.DS_Store
+.DS_Store

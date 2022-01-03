@@ -20,6 +20,10 @@ import { Button } from 'semantic-ui-react';
 const App = () => {
   return (
     <div>
+
+
+
+
       <header>
         <div className='headerWrapper'>
           <div className='bannerContainer'>
@@ -33,7 +37,7 @@ const App = () => {
           </div>
           <div className='contactContainer'>
             <div className='phoneContainer'>
-              <h2 className=''>
+              <h2>
                 <Button className='callBtn' onClick={() => window.location.href='tel:416-241-7866'}>
                   Call Us: (416) 241-7866
                 </Button>
@@ -42,6 +46,15 @@ const App = () => {
           </div>
         </div>
       </header>
+
+
+
+
+
+
+
+
+
 
       <div className='hero'>
         <div className='hero-wrapper'>
@@ -57,14 +70,22 @@ const App = () => {
         </div>
       </div>
 
+
+
+
+
+
+
+
+
       <div className='prices'>
         <div className='price-container'>
           <div className='price-title'>
-            <h3><u>Refill</u></h3>
+            <h3><u>Refills</u></h3>
           </div>
           <div className='price-desc'>
             <div className='price-desc-text'>
-              <p>$3.5</p>
+              <p>$3.50</p>
             </div>
             <div className='price-desc-img refill'>
               <img src={waterDrop} alt='Water droplets' />
@@ -77,7 +98,7 @@ const App = () => {
           </div>
           <div className='price-desc'>
             <div className='price-desc-text'>
-              <p>$10</p>
+              <p>$10.00</p>
             </div>
             <div className='price-desc-img emptyBottle' >
               <img src={yBottle} alt='5 gallon water bottle' />
@@ -90,7 +111,7 @@ const App = () => {
           </div>
           <div className='price-desc'>
             <div className='price-desc-text'>
-              <p>$13.5</p>
+              <p>$13.50</p>
             </div>
             <div className='price-desc-img bottleWater'>
               <img src={refill} alt='refill icon' />
@@ -99,11 +120,27 @@ const App = () => {
         </div>
       </div>
 
+
+
+
+
+
+
+
+
+
       <div className='location'>
         <div className='location-head'>
           <div className='location-wrapper'>
-            <h2>Where Are We Located?</h2>
+            <h2>Location</h2>
             <h2><span className='location-span'><u>1722 Jane Street</u> at Jane & Lawrence</span></h2>
+
+            <div className='phone-location-span'>
+              <h1>Address</h1>
+              <h3>1722 Jane Street @ Jane and Lawrence</h3>
+              <h3>North York, M9N 2S3</h3>
+            </div>
+
           </div>
         </div>
         <div className='location-map'>
@@ -115,10 +152,15 @@ const App = () => {
         </div>
       </div>
 
+
+
+
+
+
       <div className='other-products'>
         <div className='other-wrapper'>
-          <h2>Our Other Products</h2>
-          <h2><span className='underline'>Hover to see the product!</span></h2>
+          <h2>Other Products</h2>
+          <h2><span className='hover-text underline'>Hover to see the product!</span></h2>
         </div>
         <div className='product-list'>
           <div className='product-card'>
@@ -145,14 +187,38 @@ const App = () => {
         </div>
       </div>
 
+
+
+
+
       <footer>
         <div className='footer-wrapper'>
-          <div>
-            <h2>When Are We Open?</h2>
-            <p>Wednesday: <u>Closed</u> </p>
-            <p>Monday, Tuesday, Thursday, Friday, Saturday: <u>10am - 6pm</u></p>
-            <p>Sunday: <u>11am - 4pm</u></p>
+          <div className='hours-wrapper'>
+            <h2>Hours</h2>
+
+            <div className='div-hours'>
+              <div className='left-hours'>
+                <p>Monday</p>
+                <p>Tuesday</p>
+                <p>Wednesday</p>
+                <p>Thursday</p>
+                <p>Friday</p>
+                <p>Saturday</p>
+                <p>Sunday</p>
+              </div>
+
+              <div className='right-hours'>
+              <p>10am - 6pm</p>
+                <p>10am - 6pm</p>
+                <p>Closed</p>
+                <p>10am - 6pm</p>
+                <p>10am - 6pm</p>
+                <p>10am - 6pm</p>
+                <p>11am - 4pm</p>
+              </div>
+            </div>
           </div>
+
           <div className='email-btn'>
             <AddComment />
           </div>
