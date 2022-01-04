@@ -43,7 +43,7 @@ const AddComment = () => {
                 success={success}
             />
             <div>
-                <Button onClick={() => openModal()} className='contactButton' id='contactButton'>Got A Question?</Button>
+                <Button onClick={() => openModal()} className='contactButton' id='contactButton'>Contact Us</Button>
             </div>
         </div>
     );
