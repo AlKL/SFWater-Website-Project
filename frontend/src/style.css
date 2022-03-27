@@ -232,7 +232,7 @@ header {
 }
 
 .hero-about {
-    background-color: red;
+    /* background-color: red; */
     width: 60%;
     height: 100%;
     display: flex;
