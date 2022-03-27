@@ -66,7 +66,7 @@ header {
 }
 
 .bannerContainer h1, .phoneContainer a {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #004863;
     margin-bottom: 0;
     margin-top: 0;
@@ -241,14 +241,14 @@ header {
 }
 
 .hero-about h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;  
     font-size: 70px;
     color: #01627F;
     margin: 0;
 }
 
 .hero-about h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #5BA1C1;
     margin: 0;
     font-size: 55px;
@@ -256,7 +256,7 @@ header {
 }
 
 .hero-about p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     color: #01627F;
     margin: 0;
@@ -408,12 +408,12 @@ header {
 }
 
 .price-title h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
 }
 
 .price-desc {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #37819F;
     height: 200px;
     display: flex;
@@ -595,7 +595,7 @@ header {
 }
 
 .location-wrapper h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -708,7 +708,7 @@ header {
 .other-wrapper h2 {
     padding-bottom: 15px;
     color: #004863;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -734,7 +734,7 @@ header {
 .flip-card {
     height: 500px;
     width: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     /* background-color: beige; */
     /* border: 2px solid green; */
 }
@@ -906,12 +906,12 @@ footer {
 }
 
 footer h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer p {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .email-btn {
