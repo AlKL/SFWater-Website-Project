@@ -232,7 +232,7 @@ header {
 }
 
 .hero-about {
-    /* background-color: red; */
+    background-color: red;
     width: 60%;
     height: 100%;
     display: flex;
@@ -252,6 +252,7 @@ header {
     color: #5BA1C1;
     margin: 0;
     font-size: 55px;
+    /* max-width: 100%; */
 }
 
 .hero-about p {

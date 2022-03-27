@@ -60,7 +60,8 @@ const App = () => {
         <div className='hero-wrapper'>
           <div className='hero-about'>
             <h2>Our Water</h2>
-            <h3>Local. Affordable. Water You Can <u>Trust</u>.</h3>
+            <h3>Local. Affordable. </h3>
+            <h3>Water You Can <u>Trust</u>.</h3>
             <p><i>Pure drinking water filtered by reverse osmosis</i></p>
             <p><i>Total dissolved solids less than 10 parts per million</i></p>
           </div>
