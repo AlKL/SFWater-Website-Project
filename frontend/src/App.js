@@ -22,7 +22,10 @@ const App = () => {
     <div className='mobile'>
 
 
-
+      <div className='mobileButton'>
+        <Button primary className='floatingButton' onClick={() => window.location.href = 'tel:416-241-7866'}>Call Now</Button>
+        <Button secondary className='floatingButton' a href='#mobileHours'>Hours & Address</Button>
+      </div>
 
       <header>
         <div className='headerWrapper'>
@@ -38,7 +41,7 @@ const App = () => {
           <div className='contactContainer'>
             <div className='phoneContainer'>
               <h2>
-                <Button className='callBtn' onClick={() => window.location.href='tel:416-241-7866'}>
+                <Button className='callBtn' onClick={() => window.location.href = 'tel:416-241-7866'}>
                   Call Us: (416) 241-7866
                 </Button>
               </h2>
@@ -194,7 +197,12 @@ const App = () => {
 
       <footer>
         <div className='footer-wrapper'>
-          <div className='hours-wrapper'>
+          <div className='hours-wrapper' id='mobileHours'>
+            <div>
+              <h2>Address</h2>
+              <p>1722 Jane Street - North York - Ontario - M9N 2S3</p>
+              <br></br>
+            </div>
             <h2>Hours</h2>
 
             <div className='div-hours'>
@@ -209,7 +217,7 @@ const App = () => {
               </div>
 
               <div className='right-hours'>
-              <p>10am - 6pm</p>
+                <p>10am - 6pm</p>
                 <p>10am - 6pm</p>
                 <p>Closed</p>
                 <p>10am - 6pm</p>
@@ -226,7 +234,6 @@ const App = () => {
         </div>
       </footer>
     </div>
-
   );
 };
 
