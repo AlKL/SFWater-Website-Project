@@ -200,7 +200,7 @@ const App = () => {
           <div className='hours-wrapper' id='mobileHours'>
             <div>
               <h2>Address</h2>
-              <p>1722 Jane Street - North York - Ontario - M9N 2S3</p>
+              <p>1722 Jane Street, North York, Ontario, M9N 2S3</p>
               <br></br>
             </div>
             <h2>Hours</h2>
