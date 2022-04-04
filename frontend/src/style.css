@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+.mobile {
+    /* background-color: red; */
+}
+
 /*                                                                                      HEADER */
 
 /*                                                                                      HEADER */
@@ -66,7 +70,7 @@ header {
 }
 
 .bannerContainer h1, .phoneContainer a {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     color: #004863;
     margin-bottom: 0;
     margin-top: 0;
@@ -134,6 +138,9 @@ header {
 @media only screen and (max-width: 1200px) and (min-width: 0px) {
     .headerWrapper {
         width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -241,14 +248,14 @@ header {
 }
 
 .hero-about h2 {
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Epilogue', sans-serif;  
     font-size: 70px;
     color: #01627F;
     margin: 0;
 }
 
 .hero-about h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     color: #5BA1C1;
     margin: 0;
     font-size: 55px;
@@ -256,7 +263,7 @@ header {
 }
 
 .hero-about p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     font-size: 21px;
     color: #01627F;
     margin: 0;
@@ -408,12 +415,12 @@ header {
 }
 
 .price-title h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     font-size: 40px;
 }
 
 .price-desc {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     color: #37819F;
     height: 200px;
     display: flex;
@@ -595,7 +602,7 @@ header {
 }
 
 .location-wrapper h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     margin: 0;
 }
 
@@ -708,7 +715,7 @@ header {
 .other-wrapper h2 {
     padding-bottom: 15px;
     color: #004863;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     margin: 0;
 }
 
@@ -734,7 +741,7 @@ header {
 .flip-card {
     height: 500px;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     /* background-color: beige; */
     /* border: 2px solid green; */
 }
@@ -906,12 +913,12 @@ footer {
 }
 
 footer h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 
 footer p {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Epilogue', sans-serif;
 }
 
 .email-btn {

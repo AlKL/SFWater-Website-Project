@@ -19,7 +19,7 @@ import { Button } from 'semantic-ui-react';
 
 const App = () => {
   return (
-    <div>
+    <div className='mobile'>
 
 
 
