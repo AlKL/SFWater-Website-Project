@@ -33,7 +33,7 @@ const AddCommentForm = ({ onSubmit, onCancel }) => {
         >
             {({ isValid, dirty }) => {
                 return (
-                    <Form className="form ui">
+                    <Form className="form ui" onKeyDown={onKeyDown}>
                         <Field
                             label="Name"
                             placeholder="Name"
@@ -75,5 +75,11 @@ const AddCommentForm = ({ onSubmit, onCancel }) => {
         </Formik>
     );
 };
+
+function onKeyDown(keyEvent) {
+    if ((keyEvent.charCode || keyEvent.keyCode) === 13) {
+      keyEvent.preventDefault();
+    }
+  }
 
 export default AddCommentForm;
