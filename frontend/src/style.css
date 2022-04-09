@@ -16,11 +16,11 @@
     box-sizing: border-box;
 }
 
-.mobile {
-    /* background-color: red; */
+.mobileButton {
+    display: none;
 }
 
-.mobileButton {
+.mobileBottleLogo {
     display: none;
 }
 
@@ -152,6 +152,7 @@ header {
     .bannerContainer {
         flex-direction: column;
     }
+
     header {
         height: 200px;
     }
@@ -163,13 +164,15 @@ header {
     }
 }
 
-@media only screen and (max-width: 720px) and (min-width: 0px) {    
+@media only screen and (max-width: 720px) and (min-width: 0px) {
     header {
         height: 100%;
     }
+
     .bannerLinks, .phoneContainer {
         display: none;
     }
+
     .bannerContainer {
         display: flex;
         /* margin-top: 25vw; */
@@ -177,7 +180,7 @@ header {
         justify-content: center;
         align-items: center;
     }
-    
+
     .headerWrapper {
         height: 15vh;
     }
@@ -192,12 +195,24 @@ header {
         z-index: 100;
         bottom: 20px;
         left: 50%;
-        margin-left:-163px;
+        margin-left: -163px;
     }
 
     .mobileButton Button {
         width: 165px;
     }
+
+    .mobileBottleLogo {
+        display: flex;
+        justify-content: center;
+        /* background-color: navy; */
+        /* border: 1px dotted black; */
+    }
+
+    .mobilePriceContainer {
+        max-width: 120px;
+    }
+
 }
 
 /*                                                                                      HERO */
@@ -238,7 +253,7 @@ header {
 }
 
 .hero-about h2 {
-    font-family: 'Epilogue', sans-serif;  
+    font-family: 'Epilogue', sans-serif;
     font-size: 70px;
     color: #01627F;
     margin: 0;
@@ -284,6 +299,7 @@ header {
     .hero-wrapper {
         width: 80%;
     }
+
     .hero-about h3 {
         font-size: 50px;
     }
@@ -293,9 +309,11 @@ header {
     .hero-wrapper {
         width: 80%;
     }
+
     .hero-about h3 {
         font-size: 45px;
     }
+
     .hero-about p {
         font-size: 16px;
     }
@@ -317,9 +335,11 @@ header {
     .hero-wrapper {
         width: 90%;
     }
+
     .hero-about h3 {
         font-size: 36px;
     }
+
     .hero-about p {
         font-size: 13px;
     }
@@ -329,15 +349,19 @@ header {
     .bottle-container img {
         display: none;
     }
+
     .hero-about {
         width: 100%;
     }
+
     .bottle-container {
         width: 0;
     }
+
     .hero-about h3 {
         font-size: 65px;
     }
+
     .hero-about p {
         font-size: 20px;
     }
@@ -349,6 +373,7 @@ header {
         height: 325px;
         /* text-transform: lowercase; */
     }
+
     .hero-about {
         align-items: center;
         justify-content: center;
@@ -357,6 +382,7 @@ header {
     .hero-about h2 {
         font-size: 56px;
     }
+
     .hero-about h3 {
         font-size: 30px;
         text-align: center;
@@ -458,6 +484,7 @@ header {
     .prices {
         width: 90%;
     }
+
     .bottleWater img {
         height: 90%;
     }
@@ -473,6 +500,7 @@ header {
     .prices {
         width: 100%;
     }
+
     .price-title h3 {
         font-size: 35px;
     }
@@ -482,6 +510,7 @@ header {
     .bottleWater img {
         height: 80%;
     }
+
     .refill img {
         height: 80%;
         margin-bottom: 15px;
@@ -492,12 +521,15 @@ header {
     .price-title h3 {
         font-size: 30px;
     }
+
     .bottleWater img {
         height: 60%;
     }
+
     .emptyBottle img {
         height: 70%;
     }
+
     .refill img {
         height: 70%;
         margin-bottom: 15px;
@@ -508,12 +540,15 @@ header {
     .price-title h3 {
         font-size: 25px;
     }
+
     .bottleWater img {
         height: 50%;
     }
+
     .emptyBottle img {
         height: 60%;
     }
+
     .refill img {
         height: 60%;
         margin-bottom: 15px;
@@ -532,10 +567,12 @@ header {
     .emptyBottle img {
         height: 60%;
     }
+
     .refill img {
         height: 60%;
         margin-bottom: 15px;
     }
+
     .price-container {
         width: 90%;
         height: 100px;
@@ -544,6 +581,7 @@ header {
         justify-content: center;
         align-items: center;
     }
+
     .price-desc-img {
         display: none;
     }
@@ -559,7 +597,7 @@ header {
     .price-title u {
         text-decoration: none;
     }
-    
+
 }
 
 /*                                                                                      LOCATION */
@@ -633,6 +671,7 @@ header {
     .location-wrapper {
         width: 90%;
     }
+
     .location-wrapper h2 {
         font-size: 20px;
     }
@@ -660,11 +699,11 @@ header {
     .location-wrapper h2 {
         display: none;
     }
-    
+
     .location-head {
         padding-top: 20px;
     }
-    
+
     .location-wrapper h3 {
         margin: 5px;
     }
@@ -787,6 +826,7 @@ header {
     .other-wrapper {
         width: 80%;
     }
+
     .product-list {
         width: 80%;
     }
@@ -796,9 +836,11 @@ header {
     .card-price p {
         padding-top: 20px;
     }
+
     .product-card {
         padding-bottom: 30px;
     }
+
     .product-card:hover {
         box-shadow: none
     }
@@ -808,9 +850,11 @@ header {
     .other-wrapper {
         width: 90%;
     }
+
     .product-list {
         width: 90%;
     }
+
     .product-card {
         width: 100%;
         padding-top: 30px;
@@ -968,6 +1012,7 @@ footer p {
         width: 90%;
         padding-bottom: 0;
     }
+
     .email-btn {
         margin-top: 30px;
     }

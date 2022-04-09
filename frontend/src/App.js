@@ -16,6 +16,7 @@ import yelpIcon from './images/yelp-icon.png';
 import googleIcon from './images/google.png';
 import yellowPages from './images/yellowPages.png';
 import { Button } from 'semantic-ui-react';
+import bottlePixel from './images/bottlePixel.png'
 
 const App = () => {
   return (
@@ -54,15 +55,10 @@ const App = () => {
 
 
 
-
-
-
-
-
       <div className='hero'>
         <div className='hero-wrapper'>
           <div className='hero-about'>
-            <h2>Our Water</h2>
+            <h2>Our Water </h2>
             <h3>Local. Affordable. </h3>
             <h3>Water You Can <u>Trust</u>.</h3>
             <p><i>Pure drinking water filtered by reverse osmosis</i></p>
@@ -72,15 +68,11 @@ const App = () => {
             <img src={cooler} alt='Splash of water' />
           </div>
         </div>
+
       </div>
-
-
-
-
-
-
-
-
+      <div className='mobileBottleLogo'>
+        <img className='mobilePriceContainer' src={yBottle}></img>
+      </div>
 
       <div className='prices'>
         <div className='price-container'>
