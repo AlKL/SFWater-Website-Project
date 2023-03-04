@@ -46,6 +46,7 @@
   },
   "proxy": "http://localhost:3001",
   "devDependencies": {
+    "chokidar": "^3.5.3",
     "react-app-env": "^1.2.3"
   }
 }

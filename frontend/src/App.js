@@ -16,13 +16,10 @@ import yelpIcon from './images/yelp-icon.png';
 import googleIcon from './images/google.png';
 import yellowPages from './images/yellowPages.png';
 import { Button } from 'semantic-ui-react';
-import bottlePixel from './images/bottlePixel.png'
 
 const App = () => {
   return (
     <div className='mobile'>
-
-
       <div className='mobileButton'>
         <Button primary className='floatingButton' onClick={() => window.location.href = 'tel:416-241-7866'}>Call Now</Button>
         <Button secondary className='floatingButton' a href='#mobileHours'>Hours & Address</Button>
@@ -51,16 +48,12 @@ const App = () => {
         </div>
       </header>
 
-
-
-
-
       <div className='hero'>
         <div className='hero-wrapper'>
           <div className='hero-about'>
-            <h2>Our Water </h2>
-            <h3>Local. Affordable. </h3>
-            <h3>Water You Can <u>Trust</u>.</h3>
+            <h2>your water </h2>
+            <h3>local & affordable </h3>
+            <h3>water you can <u>trust</u></h3>
             <p><i>Pure drinking water filtered by reverse osmosis</i></p>
             <p><i>Total dissolved solids less than 10 parts per million</i></p>
           </div>
@@ -116,15 +109,6 @@ const App = () => {
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
       <div className='location'>
         <div className='location-head'>
           <div className='location-wrapper'>
@@ -147,11 +131,6 @@ const App = () => {
           </div>
         </div>
       </div>
-
-
-
-
-
 
       <div className='other-products'>
         <div className='other-wrapper'>
@@ -182,10 +161,6 @@ const App = () => {
           </div>
         </div>
       </div>
-
-
-
-
 
       <footer>
         <div className='footer-wrapper'>
